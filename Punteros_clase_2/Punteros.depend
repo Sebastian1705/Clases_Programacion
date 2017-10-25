@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1507856815 source:d:\sebastian\clases_programacion\punteros_clase_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad_1.h"
+
+1507856690 source:d:\sebastian\clases_programacion\punteros_clase_2\entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad_1.h"
+
+1507857416 d:\sebastian\clases_programacion\punteros_clase_2\entidad_1.h
+

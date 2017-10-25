@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1504747604 source:c:\users\alumno\desktop\seba\clase_07_ejercicio\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1504747616 source:c:\users\alumno\desktop\seba\clase_07_ejercicio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1504747846 c:\users\alumno\desktop\seba\clase_07_ejercicio\funciones.h
+
+1504782459 source:c:\users\supervisor\desktop\clases\clase_07_ejercicio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1504783262 c:\users\supervisor\desktop\clases\clase_07_ejercicio\funciones.h
+

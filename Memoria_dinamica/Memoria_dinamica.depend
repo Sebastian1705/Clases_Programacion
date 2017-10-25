@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1508374061 source:d:\sebastian\clases_programacion\memoria_dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Persona.h"
+
+1508371326 source:d:\sebastian\clases_programacion\memoria_dinamica\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Persona.h"
+
+1508369721 d:\sebastian\clases_programacion\memoria_dinamica\persona.h
+
+1508375871 source:d:\sebastian\clases_programacion\memoria_dinamica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1508375943 d:\sebastian\clases_programacion\memoria_dinamica\arraylist.h
+

@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1504141164 source:c:\clase_5\lib.c
+	"Lib.h"
+	<stdio.h>
+	<stdlib.h>
+
+1504141164 c:\clase_5\lib.h
+
+1504141298 source:c:\clase_5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lib.h"
+
+1504217980 source:c:\users\alumno\desktop\sebastian\clase_06\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lib.h"
+
+1504217980 c:\users\alumno\desktop\sebastian\clase_06\lib.h
+
+1504217546 source:c:\users\alumno\desktop\sebastian\clase_06\lib.c
+	"Lib.h"
+	<stdio.h>
+	<stdlib.h>
+
+1504738327 source:c:\users\alumno\desktop\seba\clase_06_repaso\lib.c
+	"Lib.h"
+	<stdio.h>
+	<stdlib.h>
+
+1504738327 c:\users\alumno\desktop\seba\clase_06_repaso\lib.h
+
+1504738327 source:c:\users\alumno\desktop\seba\clase_06_repaso\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lib.h"
+

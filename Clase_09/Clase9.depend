@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1505347279 source:d:\clase9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+
+1505347184 d:\clase9\producto.h
+
+1505347200 source:d:\clase9\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505346355 d:\clase9\validar.h
+
+1505346214 source:d:\clase9\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505436594 source:d:\sebastian\clases_programacion\clase_09\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505433969 d:\sebastian\clases_programacion\clase_09\producto.h
+
+1505430267 source:d:\sebastian\clases_programacion\clase_09\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505424694 d:\sebastian\clases_programacion\clase_09\validar.h
+
+1505436564 source:d:\sebastian\clases_programacion\clase_09\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505404835 source:c:\users\supervisor\desktop\clases_programacion\clase_09\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505404349 c:\users\supervisor\desktop\clases_programacion\clase_09\producto.h
+
+1505404451 c:\users\supervisor\desktop\clases_programacion\clase_09\validar.h
+
+1505402613 source:c:\users\supervisor\desktop\clases_programacion\clase_09\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505404485 source:c:\users\supervisor\desktop\clases_programacion\clase_09\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505422417 source:e:\desktop\clases_programacion\clase_09\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505422417 e:\desktop\clases_programacion\clase_09\producto.h
+
+1505422417 e:\desktop\clases_programacion\clase_09\validar.h
+
+1505422417 source:e:\desktop\clases_programacion\clase_09\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505422417 source:e:\desktop\clases_programacion\clase_09\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
