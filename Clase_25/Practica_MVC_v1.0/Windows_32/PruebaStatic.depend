@@ -101,3 +101,46 @@
 
 1510079018 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Controlador.h
 
+1510063446 source:d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Socio.h"
+
+1510063446 d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\arraylist.h
+
+1510063446 d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\socio.h
+	"ArrayList.h"
+
+1510063456 source:d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1510063456 d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\controlador.h
+
+1510063456 source:d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\socio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Socio.h"
+
+1510063446 source:d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1510063446 d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\validaciones.h
+
+1510183828 source:d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Socio.h"
+	"Vista.h"
+
+1510063456 d:\sebastian\clase\clase_25\practica_mvc_v1.0\windows_32\vista.h
+

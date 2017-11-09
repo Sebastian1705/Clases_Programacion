@@ -28,6 +28,7 @@ int cont_altaSocio (char* nombre,char* apellido,char* dni)
 
 int cont_bajaSocio (int id)
 {
+
     return 0;
 }
 
