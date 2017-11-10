@@ -82,14 +82,27 @@ static void opcionBaja()
 {
     char auxId[10];
     int id;
-    val_getInt(auxId, "Id: \n", "Error\n", 2,10);
+    val_getInt(auxId, "Id a borrar: \n", "Error\n", 2,10);
     id = atoi(auxId);
     cont_bajaSocio(id);
 }
 
 static void opcionModificacion()
 {
+    char auxId[10];
+    char auxNombre[50];
+    char auxApellido[50];
+    char auxDni[20];
 
+    int id;
+
+    val_getInt(auxId, "Id a modificar: \n", "Error\n", 2,10);
+    val_getString(auxNombre, "Nombre?", "Error", 2, 50);
+    val_getString(auxApellido, "Apellido?", "Error", 2, 50);
+    val_getInt(auxDni, "Dni?", "Error\n", 2, 20);
+    id = atoi(auxId);
+
+    cont_modificarSocio(auxNombre, auxApellido, auxDni, id, SOCIO_ESTADO_ACTIVO);
 }
 
 static void opcionListado()

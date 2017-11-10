@@ -2862,3 +2862,60 @@
 	"Vista.h"
 	"Controlador.h"
 
+1510274238 source:/home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Socio.h"
+	"Vista.h"
+	"DataManager.h"
+
+1510228746 /home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/ArrayList.h
+
+1510228742 /home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Socio.h
+	"ArrayList.h"
+
+1510228746 /home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Vista.h
+
+1510273922 source:/home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Socio.h"
+	"DataManager.h"
+
+1510228750 source:/home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1510228750 /home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Controlador.h
+
+1510268628 source:/home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Socio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Socio.h"
+
+1510271111 source:/home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1510228742 /home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Validaciones.h
+
+1510271893 source:/home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Socio.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+
+1510273946 /home/alumno/Escritorio/Clases_Programacion/Clase_26/Linux_64_C/DataManager.h
+

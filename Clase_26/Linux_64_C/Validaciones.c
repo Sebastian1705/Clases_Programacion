@@ -241,3 +241,5 @@ int val_validarUnsignedInt(char* buffer)
     }
     return retorno;
 }
+
+
