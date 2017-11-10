@@ -27,12 +27,12 @@ int dm_saveAll(ArrayList* listaSocios)
 
 int dm_readAll(ArrayList* listaSocios)
 {
-    int retorno = -1;
 
     Socio auxSocio;
     Socio* pSocio;
     FILE* pFile;
     pFile = fopen(ARCHIVO_SOCIOS, "rb");
+    int maximo  = 0;
 
     if(listaSocios != NULL)
     {
@@ -43,9 +43,13 @@ int dm_readAll(ArrayList* listaSocios)
                 pSocio = soc_new(auxSocio.nombre, auxSocio.apellido, auxSocio.dni, auxSocio.id, auxSocio.estado);
                 al_add(listaSocios, pSocio);
             }
+            if(auxSocio.id > maximo)
+            {
+                auxSocio.id = maximo;
+            }
 
         }while(!feof(pFile));
-        retorno = 0;
+
     }
-    return retorno;
+    return maximo;
 }
