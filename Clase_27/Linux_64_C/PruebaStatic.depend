@@ -2992,7 +2992,7 @@
 1510870971 /home/alumno/Escritorio/Practica_MVC_vGTK [Resuelto en Clase 26]/Linux_64_C/Servicios.h
 	"ArrayList.h"
 
-1510879215 source:/home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Controlador.c
+1510879406 source:/home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Controlador.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -3008,7 +3008,7 @@
 1510873739 /home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Socio.h
 	"ArrayList.h"
 
-1510870334 /home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.h
+1510880847 /home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.h
 
 1510877639 /home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/DataManager.h
 
@@ -3053,7 +3053,7 @@
 
 1510306658 /home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Validaciones.h
 
-1510871002 source:/home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.c
+1510880606 source:/home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -3063,6 +3063,7 @@
 	"Vista.h"
 	"Controlador.h"
 	"Servicios.h"
+	"Relacion.h"
 
 1510878392 /home/alumno/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Relacion.h
 

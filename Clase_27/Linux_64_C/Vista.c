@@ -12,8 +12,11 @@
 static int idiomaVista = VISTA_IDIOMA_ES;
 
 static void opcionAlta();
+
 static void opcionBaja();
+static void opcionBajaServicio();
 static void opcionModificacion();
+static void opcionAlta();
 static void opcionListado();
 
 
@@ -28,7 +31,7 @@ int vista_mostrarMenu()
     char buffer[10];
     int option=0;
 
-    while(option != 5)
+    while(option != 8)
     {
         val_getInt(buffer, MENU_PPAL_ES, MENU_PPAL_ERROR_ES,2,5);
         option = atoi(buffer);
@@ -47,6 +50,16 @@ int vista_mostrarMenu()
             case 4:
                 opcionModificacion();
                 break;
+            case 5:
+
+                break;
+            case 6:
+                opcionBajaServicio();
+                break;
+            case 7:
+
+                break;
+
 
         }
     }
@@ -173,3 +186,17 @@ void vista_mostrarRelaciones(ArrayList* pListaRelaciones)
     }
 
 }
+
+static void opcionBajaServicio()
+{
+    char auxId[10];
+    int id;
+
+    if((val_getUnsignedInt(auxId,"Id de servicio a dar de baja" , "Error",2,10)==0))
+    {
+        id = atoi(auxId);
+        cont_bajaServicio(id);
+    }
+
+}
+
