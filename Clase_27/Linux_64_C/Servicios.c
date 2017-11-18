@@ -9,7 +9,7 @@ Servicio* ser_new(char* descripcion, int id, int estado)
 {
     Servicio* nuevoServicio = malloc(sizeof(Servicio));
     ser_setDescripcion(nuevoServicio,descripcion);
-    ser_setIdServicio(nuevoServicio,id);
+    ser_setId(nuevoServicio,id);
     ser_setEstado(nuevoServicio,estado);
 
     return nuevoServicio;
@@ -36,14 +36,14 @@ char* ser_getDescripcion(Servicio* this)
 }
 
 
-int ser_setIdServicio(Servicio* this,int id)
+int ser_setId(Servicio* this,int id)
 {
 
     this->id = id;
     return 0;
 }
 
-int ser_getIdServicio(Servicio* this)
+int ser_getId(Servicio* this)
 {
     return this->id;
 }

@@ -12,13 +12,13 @@
 static int idiomaVista = VISTA_IDIOMA_ES;
 
 static void opcionAlta();
-
 static void opcionBaja();
-static void opcionBajaServicio();
 static void opcionModificacion();
-static void opcionAlta();
-static void opcionListado();
 
+static void opcionAltaServicio();
+static void opcionBajaServicio();
+
+static void opcionListado();
 
 int vista_init (int idioma)
 {
@@ -51,7 +51,7 @@ int vista_mostrarMenu()
                 opcionModificacion();
                 break;
             case 5:
-
+                opcionAltaServicio();
                 break;
             case 6:
                 opcionBajaServicio();
@@ -96,7 +96,6 @@ static void opcionAlta()
     val_getString(auxApellido, "Apellido? ", "Error",2,50);
     val_getInt(auxDni, "DNI? ", "Error",2,50);
     cont_altaSocio(auxNombre,auxApellido,auxDni);
-
 }
 
 static void opcionBaja()
@@ -155,6 +154,30 @@ static void opcionListado()
     cont_listarSocios();
 }
 
+
+/**************************************************************************************/
+
+static void opcionAltaServicio()
+{
+    char auxDescripcion[50];
+    val_getString(auxDescripcion, "Descripcion del servicio: \n", "Error\n",2,50);
+    cont_altaServicio(auxDescripcion);
+}
+
+
+static void opcionBajaServicio()
+{
+    char auxId[10];
+    int id;
+
+    if((val_getUnsignedInt(auxId,"Id de servicio a dar de baja" , "Error",2,10)==0))
+    {
+        id = atoi(auxId);
+        cont_bajaServicio(id);
+    }
+
+}
+
 void vista_mostrarServicios(ArrayList* pListaServicios)
 {
     int i;
@@ -165,11 +188,14 @@ void vista_mostrarServicios(ArrayList* pListaServicios)
             if(auxServicio->estado==SERVICIO_ESTADO_ACTIVO)
             {
                 auxServicio = al_get(pListaServicios,i);
-                printf("Descripcion: %s - ID: %d\n",ser_getDescripcion(auxServicio),ser_getIdServicio(auxServicio));
+                printf("Descripcion: %s - ID: %d\n",ser_getDescripcion(auxServicio),ser_getId(auxServicio));
             }
         }
 
 }
+
+
+/**************************************************************************************/
 
 void vista_mostrarRelaciones(ArrayList* pListaRelaciones)
 {
@@ -186,17 +212,3 @@ void vista_mostrarRelaciones(ArrayList* pListaRelaciones)
     }
 
 }
-
-static void opcionBajaServicio()
-{
-    char auxId[10];
-    int id;
-
-    if((val_getUnsignedInt(auxId,"Id de servicio a dar de baja" , "Error",2,10)==0))
-    {
-        id = atoi(auxId);
-        cont_bajaServicio(id);
-    }
-
-}
-

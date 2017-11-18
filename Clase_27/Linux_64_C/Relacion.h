@@ -14,10 +14,8 @@ typedef struct
 #define RELACION_ESTADO_ACTIVO 0
 #define RELACION_ESTADO_INACTIVO 1
 
-
 int rel_delete(Relacion* this);
 Relacion* rel_new(int idServicio, int idSocio, int id, int estado);
-Relacion* rel_findById(ArrayList* pArrayRelaciones, int id);
 
 int rel_setId(Relacion* this,int id);
 int rel_getId(Relacion* this);
@@ -30,3 +28,5 @@ int rel_setIdServicio(Relacion* this,int id);
 
 int rel_setEstado(Relacion* this,int estado);
 int rel_getEstado(Relacion* this);
+
+Relacion* rel_findById(ArrayList* pArrayRelaciones, int id);

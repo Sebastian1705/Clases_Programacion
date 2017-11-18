@@ -16,16 +16,15 @@ typedef struct
 
 Servicio* ser_new(char* Descripcion, int id, int estado);
 int ser_delete(Servicio*);
+
 int ser_setDescripcion(Servicio*,char* nombre);
 char* ser_getDescripcion(Servicio*);
 
-int ser_setIdServicio(Servicio* this,int id);
-int ser_getIdServicio(Servicio* this);
+int ser_setId(Servicio* this,int id);
+int ser_getId(Servicio* this);
+
 int ser_setEstado(Servicio* this,int estado);
 int ser_getEstado(Servicio* this);
-
-
-
 
 Servicio* ser_findById(ArrayList*, int);
 

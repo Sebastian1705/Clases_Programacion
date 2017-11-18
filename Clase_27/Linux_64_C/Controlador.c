@@ -193,6 +193,6 @@ int cont_bajaRelacion(int id)
 
 int cont_listarRelacion()
 {
-    vista_mostrarServicios(nominaServicios);
+    vista_mostrarRelaciones(nominaRelaciones);
     return 0;
 }

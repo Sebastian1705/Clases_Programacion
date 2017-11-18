@@ -17,11 +17,11 @@ int vista_init (int idioma);
 
 int vista_mostrarMenu();
 
-void vista_mostrarSocios(ArrayList* pListaSocios);
-
 void vista_mostrarError(char *);
+
+void vista_mostrarSocios(ArrayList* pListaSocios);
 
 void vista_mostrarServicios(ArrayList* pListaServicios);
 
-
+void vista_mostrarRelaciones(ArrayList* pListaRelaciones);
 

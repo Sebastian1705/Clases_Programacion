@@ -3074,3 +3074,85 @@
 	"ArrayList.h"
 	"Relacion.h"
 
+1511016914 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Socio.h"
+	"Vista.h"
+	"DataManager.h"
+	"Servicios.h"
+	"Relacion.h"
+
+1510973126 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/ArrayList.h
+
+1511018563 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Socio.h
+	"ArrayList.h"
+
+1511018601 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.h
+
+1511018668 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/DataManager.h
+
+1511018668 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Servicios.h
+	"ArrayList.h"
+
+1511018668 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Relacion.h
+
+1511016835 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Socio.h"
+	"DataManager.h"
+	"Servicios.h"
+	"Relacion.h"
+
+1510973126 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1511018668 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Controlador.h
+
+1511017617 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Relacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Relacion.h"
+
+1511017432 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Servicios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Servicios.h"
+
+1510973126 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Socio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Socio.h"
+
+1510973126 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1510973126 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Validaciones.h
+
+1511018188 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Socio.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Servicios.h"
+	"Relacion.h"
+

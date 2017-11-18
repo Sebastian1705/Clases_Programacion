@@ -32,6 +32,19 @@ int rel_getId(Relacion* this)
     return this->id;
 }
 
+int rel_setEstado(Relacion* this,int estado)
+{
+
+    this->estado = estado;
+    return 0;
+}
+
+int rel_getEstado(Relacion* this)
+{
+    return this->estado;
+}
+
+
 int rel_setIdSocio(Relacion* this,int id)
 {
 
@@ -74,16 +87,5 @@ Relacion* rel_findById(ArrayList* pArrayRelaciones, int id)
     return retorno;
 }
 
-int rel_setEstado(Relacion* this,int estado)
-{
-
-    this->estado = estado;
-    return 0;
-}
-
-int rel_getEstado(Relacion* this)
-{
-    return this->estado;
-}
 
 
