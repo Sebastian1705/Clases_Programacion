@@ -152,6 +152,7 @@ static void opcionModificacion()
 static void opcionListado()
 {
     cont_listarSocios();
+    cont_listarServicios();
 }
 
 

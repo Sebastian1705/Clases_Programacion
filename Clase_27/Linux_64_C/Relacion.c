@@ -10,7 +10,7 @@ Relacion* rel_new(int idServicio, int idSocio, int id, int estado)
     rel_setId(nuevaRelacion,id);
     rel_setIdSocio(nuevaRelacion,idSocio);
     rel_setIdServicio(nuevaRelacion,idServicio);
-
+    rel_setEstado(nuevaRelacion, estado);
     return nuevaRelacion;
 }
 
@@ -86,6 +86,7 @@ Relacion* rel_findById(ArrayList* pArrayRelaciones, int id)
 
     return retorno;
 }
+
 
 
 

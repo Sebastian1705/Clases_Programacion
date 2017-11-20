@@ -3087,7 +3087,7 @@
 
 1510973126 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/ArrayList.h
 
-1511018563 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Socio.h
+1511018838 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Socio.h
 	"ArrayList.h"
 
 1511018601 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.h
@@ -3097,7 +3097,7 @@
 1511018668 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Servicios.h
 	"ArrayList.h"
 
-1511018668 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Relacion.h
+1511018831 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Relacion.h
 
 1511016835 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/DataManager.c
 	<stdio.h>
@@ -3142,9 +3142,9 @@
 	<string.h>
 	"Validaciones.h"
 
-1510973126 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Validaciones.h
+1511018960 /home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Validaciones.h
 
-1511018188 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.c
+1511213231 source:/home/seba/Escritorio/Clases_Programacion/Clase_27/Linux_64_C/Vista.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
