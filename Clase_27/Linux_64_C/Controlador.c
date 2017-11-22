@@ -39,6 +39,8 @@ void cont_init()
     vista_mostrarMenu();
 }
 
+/**************************************************************************************/
+
 int cont_altaSocio (char* nombre,char* apellido,char* dni)
 {
     Socio* auxSocio;
@@ -196,3 +198,30 @@ int cont_listarRelacion()
     vista_mostrarRelaciones(nominaRelaciones);
     return 0;
 }
+
+
+
+/*int ctrlr_checkSocio(int id)
+{
+    int retorno = -1;
+    Socio* auxiliar;
+    auxiliar = soc_findById (listaSocios, id);
+
+    if(auxiliar != NULL && soc_getEstado(auxiliar) == SOCIO_ESTADO_ACTIVO)
+    {
+        retorno = 0;
+    }
+    return retorno;
+}
+int ctrlr_checkServicio(int id)
+{
+    int retorno = -1;
+    Servicios* auxiliar;
+    auxiliar = svcs_findById (listaServicios, id);
+
+    if(auxiliar != NULL && svcs_getEstado(auxiliar) == SERVICIO_ACTIVO)
+    {
+        retorno = 0;
+    }
+    return retorno;
+}*/
