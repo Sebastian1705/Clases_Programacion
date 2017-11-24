@@ -13,11 +13,11 @@ int dm_dumpEmployeeList(ArrayList* list)
     void* employee = NULL;
     if(archivo!=NULL)
     {
-        fprintf(archivo,"Id, Name, Last Name, Age, Type");
+        fprintf(archivo,"Id, Name, Last Name, Age, Type\n");
         for(i=0; i<al_len(list); i++)
         {
             employee = al_get(list,i);
-            fprintf(archivo,"%d, %s, %s, %d, %d\n", emp_getId(list), emp_getName(list),emp_getLastName(list),emp_getAge(list), emp_getType(list));
+            fprintf(archivo,"%d, %s, %s, %d, %d\n", emp_getId(employee), emp_getName(employee),emp_getLastName(employee),emp_getAge(employee), emp_getType(employee));
             retorno=0;
         }
     }

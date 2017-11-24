@@ -51,9 +51,9 @@ int main()
         employee_print(e);
     }
     printf("%d",al_len(lista));
-//
-//    // genero archivo con lista filtrada
-//    dm_dumpEmployeeList(filteredList);
+
+    // genero archivo con lista filtrada
+    dm_dumpEmployeeList(filteredList);
 
     return 0;
 }
