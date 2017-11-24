@@ -3,6 +3,7 @@
 #include "ArrayList.h"
 #include "Employee.h"
 #include "DataManager.h"
+#include "parser.h"
 
 /****************************************************
     HACER:
@@ -28,27 +29,28 @@
 int main()
 {
 
-//    ArrayList* lista = al_newArrayList();
-//
-//    parserEmployee(lista);
-//
-//    printf("*********** LISTA COMPLETA ****************\n");
-//    int i;
+    ArrayList* lista = al_newArrayList();
+    FILE* archivo;
+    parserEmployee(archivo, lista);
+
+    printf("*********** LISTA COMPLETA ****************\n");
+    int i;
 //    for(i=0; i<al_len(lista); i++)
 //    {
 //        Employee* e = al_get(lista,i);
 //        employee_print(e);
 //    }
-//
-//    // Obtengo lista filtrada
-//    ArrayList* filteredList = al_filter(lista,employee_filterEmployee);
-//
-//    printf("*********** LISTA FILTRADA ****************\n");
-//    for(i=0; i<al_len(filteredList); i++)
-//    {
-//        Employee* e = al_get(filteredList,i);
-//        employee_print(e);
-//    }
+
+    // Obtengo lista filtrada
+    ArrayList* filteredList = al_filter(lista,employee_filterEmployee);
+
+    printf("*********** LISTA FILTRADA ****************\n");
+    for(i=0; i<al_len(filteredList); i++)
+    {
+        Employee* e = al_get(filteredList,i);
+        employee_print(e);
+    }
+    printf("%d",al_len(lista));
 //
 //    // genero archivo con lista filtrada
 //    dm_dumpEmployeeList(filteredList);

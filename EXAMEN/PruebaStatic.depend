@@ -147,3 +147,54 @@
 	"Employee.h"
 	"DataManager.h"
 
+1511522302 source:c:\users\supervisor\desktop\clases_programacion\examen\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511526874 c:\users\supervisor\desktop\clases_programacion\examen\arraylist.h
+
+1511522302 c:\users\supervisor\desktop\clases_programacion\examen\employee.h
+
+1511522302 c:\users\supervisor\desktop\clases_programacion\examen\datamanager.h
+
+1511529839 source:c:\users\supervisor\desktop\clases_programacion\examen\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511530617 source:c:\users\supervisor\desktop\clases_programacion\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+	"parser.h"
+
+1511527524 source:c:\users\supervisor\desktop\clases_programacion\examen\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1511531677 source:c:\users\supervisor\desktop\clases_programacion\examen\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511522303 c:\users\supervisor\desktop\clases_programacion\examen\validaciones.h
+
+1511531342 source:c:\users\supervisor\desktop\clases_programacion\examen\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1511523392 c:\users\supervisor\desktop\clases_programacion\examen\parser.h
+

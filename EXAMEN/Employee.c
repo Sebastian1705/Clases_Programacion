@@ -32,7 +32,7 @@ int employee_filterEmployee(void* this)
     int retorno = 0;
     int age = emp_getAge(this);
     int type = emp_getType(this);
-    if(age > 30 && type ==4)
+    if(age > 30 && type == 4)
     {
         retorno = 1;
     }

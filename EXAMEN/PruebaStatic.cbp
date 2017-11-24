@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ArrayList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ArrayList.h" />
 		<Unit filename="DataManager.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -39,6 +43,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Employee.h" />
+		<Unit filename="Validaciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Validaciones.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
