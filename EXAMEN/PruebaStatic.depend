@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1463488858 source:k:\pruebastatic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1463488858 .h"
+
+1463488500 k:\pruebastatic\arraylist.h
+
+1463505889 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511111038 h"
+
+1463505431 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/ArrayList.h
+
+1463505760 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1463505789 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.h
+
+1464384445 source:c:\users\profesor\desktop\example4_static_lib\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 c:\users\profesor\desktop\example4_static_lib\win_64\arraylist.h
+
+1464384298 c:\users\profesor\desktop\example4_static_lib\win_64\employee.h
+
+1464384349 source:c:\users\profesor\desktop\example4_static_lib\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1464384471 source:c:\users\profesor\desktop\example4_static_lib\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511110818 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\arraylist.h
+
+1511110730 d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\employee.h
+
+1511111112 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511111112 er.h"
+
+1511111038 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511111163 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511110657 d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\datamanager.h
+
+1511111187 source:d:\downloads\labo1_2do_parcial\windows_resuelto\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1463604778 d:\downloads\labo1_2do_parcial\windows_resuelto\arraylist.h
+
+1511110730 d:\downloads\labo1_2do_parcial\windows_resuelto\employee.h
+
+1511111218 d:\downloads\labo1_2do_parcial\windows_resuelto\datamanager.h
+
+1511110818 source:d:\downloads\labo1_2do_parcial\windows_resuelto\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511111112 source:d:\downloads\labo1_2do_parcial\windows_resuelto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511111038 source:d:\downloads\labo1_2do_parcial\windows_resuelto\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511335796 source:/home/seba/Escritorio/EXAMEN/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511335800 /home/seba/Escritorio/EXAMEN/ArrayList.h
+
+1511494224 /home/seba/Escritorio/EXAMEN/Employee.h
+
+1511335796 /home/seba/Escritorio/EXAMEN/DataManager.h
+
+1511493611 source:/home/seba/Escritorio/EXAMEN/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511335800 source:/home/seba/Escritorio/EXAMEN/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511493626 source:/home/seba/Escritorio/EXAMEN/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
