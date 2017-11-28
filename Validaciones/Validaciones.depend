@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\supervisor\desktop\validaciones\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1511876021 source:c:\users\supervisor\desktop\validaciones\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511876047 c:\users\supervisor\desktop\validaciones\validaciones.h
+
