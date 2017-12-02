@@ -3088,48 +3088,44 @@
 	<stdlib.h>
 	"Controlador.h"
 
-1512081668 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Alquiler.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"Alquiler.h"
-
-1512078415 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/ArrayList.h
-
-1512081694 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Alquiler.h
-	"ArrayList.h"
-
-1512085356 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Controlador.c
+1512175380 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/Controlador.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 	"DataManager.h"
 	"Vista.h"
-	"Cliente.h"
-	"Alquiler.h"
 
-1512078415 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/DataManager.h
+1512175380 /home/seba/Escritorio/Clases_Programacion/Final_Logs/ArrayList.h
 
-1512084233 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Vista.h
+1512175380 /home/seba/Escritorio/Clases_Programacion/Final_Logs/DataManager.h
 
-1512078415 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/main.c
+1512175380 /home/seba/Escritorio/Clases_Programacion/Final_Logs/Vista.h
+
+1512175380 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+
+1512180959 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/Logs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Logs.h"
+
+1512180959 /home/seba/Escritorio/Clases_Programacion/Final_Logs/Logs.h
+	"ArrayList.h"
+
+1512175380 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/main.c
 	<stdio.h>
 	<stdlib.h>
 	"Controlador.h"
 
-1512085203 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Controlador.h
+1512175380 /home/seba/Escritorio/Clases_Programacion/Final_Logs/Controlador.h
 
-1512078415 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Validaciones.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Validaciones.h"
-
-1512078415 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Validaciones.h
-
-1512085135 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Vista.c
+1512175380 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/Vista.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -3137,170 +3133,22 @@
 	"ArrayList.h"
 	"Vista.h"
 	"Controlador.h"
-	"Cliente.h"
-	"Alquiler.h"
 
-1512085274 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Cliente.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"Cliente.h"
-
-1512083318 /home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/Cliente.h
-	"ArrayList.h"
-
-1512081713 source:/home/alumno/addLP1/templateFinal/TEMPLATE_LINUX/DataManager.c
-	<stdio.h>
-	<stdlib.h>
-	"ArrayList.h"
-	"DataManager.h"
-
-1512081668 source:/home/alumno/Escritorio/Sebastian/tempate_final/Alquiler.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"Alquiler.h"
-
-1512087998 /home/alumno/Escritorio/Sebastian/tempate_final/ArrayList.h
-
-1512081694 /home/alumno/Escritorio/Sebastian/tempate_final/Alquiler.h
-	"ArrayList.h"
-
-1512085274 source:/home/alumno/Escritorio/Sebastian/tempate_final/Cliente.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"Cliente.h"
-
-1512083318 /home/alumno/Escritorio/Sebastian/tempate_final/Cliente.h
-	"ArrayList.h"
-
-1512090456 source:/home/alumno/Escritorio/Sebastian/tempate_final/Controlador.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"DataManager.h"
-	"Vista.h"
-	"Cliente.h"
-	"Alquiler.h"
-
-1512078414 /home/alumno/Escritorio/Sebastian/tempate_final/DataManager.h
-
-1512090484 /home/alumno/Escritorio/Sebastian/tempate_final/Vista.h
-
-1512081712 source:/home/alumno/Escritorio/Sebastian/tempate_final/DataManager.c
-	<stdio.h>
-	<stdlib.h>
-	"ArrayList.h"
-	"DataManager.h"
-
-1512078414 source:/home/alumno/Escritorio/Sebastian/tempate_final/main.c
-	<stdio.h>
-	<stdlib.h>
-	"Controlador.h"
-
-1512085202 /home/alumno/Escritorio/Sebastian/tempate_final/Controlador.h
-
-1512078414 source:/home/alumno/Escritorio/Sebastian/tempate_final/Validaciones.c
+1512223287 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/Validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Validaciones.h"
 
-1512078414 /home/alumno/Escritorio/Sebastian/tempate_final/Validaciones.h
+1512080134 /home/seba/Escritorio/Clases_Programacion/Final_Logs/Validaciones.h
 
-1512085532 source:/home/alumno/Escritorio/Sebastian/tempate_final/Vista.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Validaciones.h"
-	"ArrayList.h"
-	"Vista.h"
-	"Controlador.h"
-	"Cliente.h"
-	"Alquiler.h"
-
-1512088407 source:/home/alumno/Escritorio/Sebastian/tempate_final/ArrayList.c
+1512222634 source:/home/seba/Escritorio/Clases_Programacion/Final_Logs/Services.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
+	"Services.h"
 
-1512080152 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/Alquiler.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
+1512222634 /home/seba/Escritorio/Clases_Programacion/Final_Logs/Services.h
 	"ArrayList.h"
-	"Alquiler.h"
-
-1512080152 /home/seba/Escritorio/Clases_Programacion/tempate_final/ArrayList.h
-
-1512080152 /home/seba/Escritorio/Clases_Programacion/tempate_final/Alquiler.h
-	"ArrayList.h"
-
-1512080154 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/ArrayList.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-
-1512080152 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/Cliente.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"Cliente.h"
-
-1512080152 /home/seba/Escritorio/Clases_Programacion/tempate_final/Cliente.h
-	"ArrayList.h"
-
-1512080152 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/Controlador.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"ArrayList.h"
-	"DataManager.h"
-	"Vista.h"
-	"Cliente.h"
-	"Alquiler.h"
-
-1512080152 /home/seba/Escritorio/Clases_Programacion/tempate_final/DataManager.h
-
-1512224792 /home/seba/Escritorio/Clases_Programacion/tempate_final/Vista.h
-
-1512080152 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/DataManager.c
-	<stdio.h>
-	<stdlib.h>
-	"ArrayList.h"
-	"DataManager.h"
-
-1512080154 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/main.c
-	<stdio.h>
-	<stdlib.h>
-	"Controlador.h"
-
-1512080152 /home/seba/Escritorio/Clases_Programacion/tempate_final/Controlador.h
-
-1512080152 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/Validaciones.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Validaciones.h"
-
-1512080152 /home/seba/Escritorio/Clases_Programacion/tempate_final/Validaciones.h
-
-1512080154 source:/home/seba/Escritorio/Clases_Programacion/tempate_final/Vista.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Validaciones.h"
-	"ArrayList.h"
-	"Vista.h"
-	"Controlador.h"
-	"Cliente.h"
-	"Alquiler.h"
 

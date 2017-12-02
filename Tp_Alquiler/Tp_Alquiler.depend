@@ -290,3 +290,71 @@
 	"Vista.h"
 	"Controlador.h"
 
+1512080134 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Alquiler.h"
+
+1512080136 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/ArrayList.h
+
+1512080134 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Alquiler.h
+	"ArrayList.h"
+
+1512080134 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1512080136 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1512080136 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Cliente.h
+	"ArrayList.h"
+
+1512080136 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Vista.h"
+	"DataManager.h"
+
+1512080136 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Vista.h
+
+1512080136 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/DataManager.h
+
+1512080136 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/DataManager.c
+
+1512080136 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1512080136 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Controlador.h
+
+1512080136 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1512080136 /home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Validaciones.h
+
+1512080136 source:/home/seba/Escritorio/Clases_Programacion/Tp_Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Cliente.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+

@@ -5,6 +5,8 @@
 	<string.h>
 	"ArrayList.h"
 
+1511398766 .h"
+
 1511397285 /home/alumno/Escritorio/Clases_Programacion/Simulacro/ArrayList.h
 
 1511398217 source:/home/alumno/Escritorio/Clases_Programacion/Simulacro/main.c
@@ -13,11 +15,15 @@
 	"ArrayList.h"
 	"Empleado.h"
 
+1511398359 h"
+
 1511385783 source:/home/alumno/Escritorio/Clases_Programacion/Simulacro/Validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Validaciones.h"
+
+1511385783 nes.h"
 
 1511385783 /home/alumno/Escritorio/Clases_Programacion/Simulacro/Validaciones.h
 
@@ -40,6 +46,8 @@
 	"Vista.h"
 	"DataManager.h"
 
+1511388359 er.h"
+
 1511385783 /home/alumno/Escritorio/Clases_Programacion/Simulacro/Vista.h
 
 1511385783 /home/alumno/Escritorio/Clases_Programacion/Simulacro/DataManager.h
@@ -49,4 +57,15 @@
 	<stdlib.h>
 	"ArrayList.h"
 	"DataManager.h"
+
+1512080134 source:/home/seba/Escritorio/Clases_Programacion/Simulacro/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Empleado.h"
+
+1512080134 /home/seba/Escritorio/Clases_Programacion/Simulacro/ArrayList.h
+
+1512080134 /home/seba/Escritorio/Clases_Programacion/Simulacro/Empleado.h
+	"ArrayList.h"
 
