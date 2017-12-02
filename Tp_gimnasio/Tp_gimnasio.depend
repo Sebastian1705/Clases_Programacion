@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1509667791 source:d:\sebastian\tp_gimnasio\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1496883878 d:\sebastian\tp_gimnasio\arraylist.h
+
+1509667974 source:d:\sebastian\tp_gimnasio\interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+
+1509667846 d:\sebastian\tp_gimnasio\interfaz.h
+
+1509666922 source:d:\sebastian\tp_gimnasio\socio.c
+
+1509667835 source:d:\sebastian\tp_gimnasio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Interfaz.h"
+
+1509667791 source:d:\sebastian\tp\tp_gimnasio\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1496883878 d:\sebastian\tp\tp_gimnasio\arraylist.h
+
+1509669122 source:d:\sebastian\tp\tp_gimnasio\socio.c
+	<stdio.h>
+	<stdlib.h>
+	"Socio.h"
+
+1509668889 d:\sebastian\tp\tp_gimnasio\socio.h
+	"ArrayList.h"
+
+1509668287 source:d:\sebastian\tp\tp_gimnasio\interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+
+1509667846 d:\sebastian\tp\tp_gimnasio\interfaz.h
+
+1508455362 source:d:\sebastian\tp\tp_gimnasio\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1508455362 d:\sebastian\tp\tp_gimnasio\validar.h
+
+1509669158 source:d:\sebastian\tp\tp_gimnasio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Interfaz.h"
+	"Validar.h"
+

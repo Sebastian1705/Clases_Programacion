@@ -1,0 +1,292 @@
+# depslib dependency file v1.0
+1512001534 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Alquiler.h"
+
+1512001534 h"
+
+1511999340 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1512043889 .h"
+
+1511999340 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/ArrayList.h
+
+1512003668 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Vista.h"
+	"DataManager.h"
+
+1512044727 er.h"
+
+1511999340 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+
+1511999340 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Interfaz.h
+
+1446667744 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1446667744 
+
+1511962192 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511962192 nes.h"
+
+1511962192 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Validaciones.h
+
+1512002936 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1512043730 "
+
+1512001534 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Alquiler.h
+	"ArrayList.h"
+
+1511962192 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Vista.h
+
+1511962192 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/DataManager.h
+
+1512003490 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Cliente.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+
+1512045989 or.h"
+
+1512002697 source:/home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/DataManager.c
+
+1512003645 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Cliente.h
+	"ArrayList.h"
+
+1511962192 /home/alumno/Escritorio/Clases_Programacion/Tp_Alquiler/Controlador.h
+
+1512001534 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Alquiler.h"
+
+1511999340 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/ArrayList.h
+
+1512001534 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Alquiler.h
+	"ArrayList.h"
+
+1511999340 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1512002936 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1512003645 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Cliente.h
+	"ArrayList.h"
+
+1512003668 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Vista.h"
+	"DataManager.h"
+
+1511962192 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Vista.h
+
+1511962192 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/DataManager.h
+
+1512003695 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/DataManager.c
+
+1446667744 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1511962192 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511962192 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Validaciones.h
+
+1512003490 source:/media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Cliente.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+
+1511962192 /media/alumno/SEBA/Clases_Programacion/Tp_Alquiler/Controlador.h
+
+1512001534 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Alquiler.h"
+
+1511999340 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\arraylist.h
+
+1512001534 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\alquiler.h
+	"ArrayList.h"
+
+1511999340 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1512043730 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1512043889 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\cliente.h
+	"ArrayList.h"
+
+1512044727 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Vista.h"
+	"DataManager.h"
+
+1512044433 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\vista.h
+
+1511962192 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\datamanager.h
+
+1512003694 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\datamanager.c
+
+1512044641 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1511962192 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511962192 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\validaciones.h
+
+1512045989 source:c:\users\supervisor\desktop\clases_programacion\tp_alquiler\vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Cliente.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+
+1512045554 c:\users\supervisor\desktop\clases_programacion\tp_alquiler\controlador.h
+
+1512001534 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Alquiler.h"
+
+1511999340 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/ArrayList.h
+
+1512001534 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Alquiler.h
+	"ArrayList.h"
+
+1511999340 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1512043732 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1512043890 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Cliente.h
+	"ArrayList.h"
+
+1512044728 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Vista.h"
+	"DataManager.h"
+
+1512044434 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Vista.h
+
+1511962192 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/DataManager.h
+
+1512003694 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/DataManager.c
+
+1512044642 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1512077208 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Controlador.h
+
+1511962192 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511962192 /home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Validaciones.h
+
+1512077130 source:/home/alumno/Escritorio/Sebastian/Clases_Programacion/Tp_Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"Cliente.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+
