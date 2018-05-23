@@ -1,0 +1,255 @@
+# depslib dependency file v1.0
+1463488858 source:k:\pruebastatic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1511527524 .h"
+
+1463488500 k:\pruebastatic\arraylist.h
+
+1463505889 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511529839 h"
+
+1463505431 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/ArrayList.h
+
+1463505760 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1463505789 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.h
+
+1464384445 source:c:\users\profesor\desktop\example4_static_lib\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 c:\users\profesor\desktop\example4_static_lib\win_64\arraylist.h
+
+1464384298 c:\users\profesor\desktop\example4_static_lib\win_64\employee.h
+
+1464384349 source:c:\users\profesor\desktop\example4_static_lib\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1464384471 source:c:\users\profesor\desktop\example4_static_lib\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511110818 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\arraylist.h
+
+1511110730 d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\employee.h
+
+1511111112 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511522302 er.h"
+
+1511111038 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511111163 source:d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511110657 d:\downloads\practica_pair_v1.3\practica_pair_v1.2\windows_64\datamanager.h
+
+1511111187 source:d:\downloads\labo1_2do_parcial\windows_resuelto\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1463604778 d:\downloads\labo1_2do_parcial\windows_resuelto\arraylist.h
+
+1511110730 d:\downloads\labo1_2do_parcial\windows_resuelto\employee.h
+
+1511111218 d:\downloads\labo1_2do_parcial\windows_resuelto\datamanager.h
+
+1511110818 source:d:\downloads\labo1_2do_parcial\windows_resuelto\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511111112 source:d:\downloads\labo1_2do_parcial\windows_resuelto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511111038 source:d:\downloads\labo1_2do_parcial\windows_resuelto\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511335796 source:/home/seba/Escritorio/EXAMEN/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511335800 /home/seba/Escritorio/EXAMEN/ArrayList.h
+
+1511494224 /home/seba/Escritorio/EXAMEN/Employee.h
+
+1511335796 /home/seba/Escritorio/EXAMEN/DataManager.h
+
+1511493611 source:/home/seba/Escritorio/EXAMEN/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511335800 source:/home/seba/Escritorio/EXAMEN/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511493626 source:/home/seba/Escritorio/EXAMEN/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511522302 source:c:\users\supervisor\desktop\clases_programacion\examen\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511526874 c:\users\supervisor\desktop\clases_programacion\examen\arraylist.h
+
+1511522302 c:\users\supervisor\desktop\clases_programacion\examen\employee.h
+
+1511522302 c:\users\supervisor\desktop\clases_programacion\examen\datamanager.h
+
+1511529839 source:c:\users\supervisor\desktop\clases_programacion\examen\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511530617 source:c:\users\supervisor\desktop\clases_programacion\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+	"parser.h"
+
+1511530617 
+
+1511527524 source:c:\users\supervisor\desktop\clases_programacion\examen\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1511531677 source:c:\users\supervisor\desktop\clases_programacion\examen\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1511531342 nes.h"
+
+1511522303 c:\users\supervisor\desktop\clases_programacion\examen\validaciones.h
+
+1511531342 source:c:\users\supervisor\desktop\clases_programacion\examen\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1511523392 c:\users\supervisor\desktop\clases_programacion\examen\parser.h
+
+1511543776 source:/home/seba/Escritorio/Clases_Programacion/EXAMEN/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1511543776 /home/seba/Escritorio/Clases_Programacion/EXAMEN/ArrayList.h
+
+1511544124 source:/home/seba/Escritorio/Clases_Programacion/EXAMEN/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+
+1511494224 /home/seba/Escritorio/Clases_Programacion/EXAMEN/Employee.h
+
+1511335796 /home/seba/Escritorio/Clases_Programacion/EXAMEN/DataManager.h
+
+1511543776 source:/home/seba/Escritorio/Clases_Programacion/EXAMEN/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1511544183 source:/home/seba/Escritorio/Clases_Programacion/EXAMEN/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"DataManager.h"
+	"parser.h"
+
+1511543776 /home/seba/Escritorio/Clases_Programacion/EXAMEN/parser.h
+
+1511543776 source:/home/seba/Escritorio/Clases_Programacion/EXAMEN/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1511543776 /home/seba/Escritorio/Clases_Programacion/EXAMEN/Validaciones.h
+
+1511544048 source:/home/seba/Escritorio/Clases_Programacion/EXAMEN/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+

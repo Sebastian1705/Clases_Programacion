@@ -1,0 +1,2 @@
+id;nombre;apellido;estado;dni
+0,ARIEL,TRAUT,1,30859667
