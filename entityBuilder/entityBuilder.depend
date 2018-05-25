@@ -24,3 +24,18 @@
 	<ctype.h>
 	"entityBuilder.h"
 
+1527205019 source:/home/seba/Documentos/Utn/Programacion_1/entityBuilder/entityBuilder.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"entityBuilder.h"
+
+1527205019 /home/seba/Documentos/Utn/Programacion_1/entityBuilder/entityBuilder.h
+
+1527205019 source:/home/seba/Documentos/Utn/Programacion_1/entityBuilder/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entityBuilder.h"
+

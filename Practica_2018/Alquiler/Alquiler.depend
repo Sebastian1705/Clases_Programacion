@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1527211001 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1527205019 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1527205019 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/ArrayList.h
+
+1527213564 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1527213577 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Validaciones.h
+
