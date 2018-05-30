@@ -35,10 +35,30 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="ArrayList.h" />
+		<Unit filename="Cliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cliente.h" />
+		<Unit filename="Controlador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Controlador.h" />
+		<Unit filename="DataManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DataManager.h" />
 		<Unit filename="Validaciones.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Validaciones.h" />
+		<Unit filename="Ventas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Ventas.h" />
+		<Unit filename="Vista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Vista.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

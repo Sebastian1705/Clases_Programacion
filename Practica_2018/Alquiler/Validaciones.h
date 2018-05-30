@@ -26,7 +26,7 @@ int val_getEmail(char* destino, char* mensaje,char* mensajeError,int intentos,in
 int val_validarEmail(char* buffer);
 
 int val_getDni(char* destino, char* mensaje, char* mensajeError, int intentos, int limite);
-int validarDni(char* buffer);
+int val_validarDni(char* buffer);
 
 int val_getAlfanumerico(char* destino, char* mensaje, char* mensajeError, int intentos,int len);
 int val_validarAlfanumerico(char* buffer);

@@ -349,7 +349,7 @@ int val_validarEmail(char* buffer)
     return retorno;
 }
 
-int getDni(char* destino, char* mensaje, char* mensajeError, int intentos, int limite)
+int val_getDni(char* destino, char* mensaje, char* mensajeError, int intentos, int limite)
 {
     int retorno = -1;
     char buffer[MAX_INPUT_BUFFER];
@@ -362,7 +362,7 @@ int getDni(char* destino, char* mensaje, char* mensajeError, int intentos, int l
         {
             myFgets(buffer, limite ,stdin);
 
-            if(validarDni(buffer) == -1)
+            if(val_validarDni(buffer) == -1)
             {
                 printf("%s",mensajeError);
                 continue;
@@ -378,7 +378,7 @@ int getDni(char* destino, char* mensaje, char* mensajeError, int intentos, int l
     return retorno;
 }
 
-int validarDni(char* buffer)
+int val_validarDni(char* buffer)
 {
     int i=0;
     int retorno = 0;
@@ -459,7 +459,7 @@ int val_validarAlfanumerico(char* buffer)
     return retorno;
 }
 
-int getCuit(char* destino, char* mensaje, char* mensajeError, int intentos, int limite)
+int val_getCuit(char* destino, char* mensaje, char* mensajeError, int intentos, int limite)
 {
     int retorno = -1;
     char buffer[MAX_INPUT_BUFFER];
