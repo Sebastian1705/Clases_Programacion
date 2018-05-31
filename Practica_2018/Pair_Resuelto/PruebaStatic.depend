@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1463488858 source:k:\pruebastatic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1463488858 .h"
+
+1463488500 k:\pruebastatic\arraylist.h
+
+1463505889 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463505431 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/ArrayList.h
+
+1463505760 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1463505789 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.h
+
+1464384445 source:c:\users\profesor\desktop\example4_static_lib\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 c:\users\profesor\desktop\example4_static_lib\win_64\arraylist.h
+
+1464384298 c:\users\profesor\desktop\example4_static_lib\win_64\employee.h
+
+1464384349 source:c:\users\profesor\desktop\example4_static_lib\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1464384471 source:c:\users\profesor\desktop\example4_static_lib\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527729410 source:c:\users\alumno\desktop\pair\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527717732 c:\users\alumno\desktop\pair\arraylist.h
+
+1527729429 c:\users\alumno\desktop\pair\employee.h
+
+1527729034 source:c:\users\alumno\desktop\pair\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527729410 source:c:\users\alumno\desktop\pair\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527780295 source:c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	"parser.h"
+
+1527776815 c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\arraylist.h
+
+1527780477 c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\employee.h
+
+1527776816 source:c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527780589 source:c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1527780112 c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\parser.h
+
+1527782634 source:c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1527782634 c:\users\supervisor\desktop\programacion_1\practica_2018\pair_resuelto\validaciones.h
+
