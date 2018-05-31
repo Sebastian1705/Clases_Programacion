@@ -39,3 +39,18 @@
 	<string.h>
 	"entityBuilder.h"
 
+1527802546 source:c:\users\alumno\desktop\programacion_1\entitybuilder\entitybuilder.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"entityBuilder.h"
+
+1527802546 c:\users\alumno\desktop\programacion_1\entitybuilder\entitybuilder.h
+
+1527802546 source:c:\users\alumno\desktop\programacion_1\entitybuilder\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entityBuilder.h"
+
