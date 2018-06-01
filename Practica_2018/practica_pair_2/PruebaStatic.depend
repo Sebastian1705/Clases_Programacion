@@ -87,3 +87,50 @@
 	"ArrayList.h"
 	"Cliente.h"
 
+1527804309 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/cliente.c
+
+1527811562 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"parser.h"
+
+1527804308 /home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/ArrayList.h
+
+1527811645 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"Validaciones.h"
+
+1527804308 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1527804309 /home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/cliente.h
+
+1527809973 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1527808121 /home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/Cliente.h
+	"ArrayList.h"
+
+1527804309 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1527804309 /home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/Validaciones.h
+
+1527806813 /home/alumno/Escritorio/Programacion_1/Practica_2018/practica_pair_2/parser.h
+

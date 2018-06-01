@@ -14,9 +14,6 @@
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
-				<Linker>
-					<Add library="./ArrayList.a" />
-				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/PruebaStatic" prefix_auto="1" extension_auto="1" />
@@ -34,11 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ArrayList.h" />
-		<Unit filename="cliente.c">
+		<Unit filename="ArrayList.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="cliente.h" />
+		<Unit filename="ArrayList.h" />
+		<Unit filename="Cliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cliente.h" />
+		<Unit filename="Validaciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Validaciones.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
