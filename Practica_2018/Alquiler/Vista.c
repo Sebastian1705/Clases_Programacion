@@ -73,7 +73,6 @@ void vista_mostrarCliente(ArrayList* nominaCliente)
     al_map(nominaCliente,cliente_imprimir);
 }
 
-
 void mostrarError(char * mensaje)
 {
 
@@ -92,8 +91,6 @@ static void opcionAltaCliente()
     {
         cont_altaCliente(nombre,apellido,dni);
     }
-
-
 }
 
 static void opcionBajaCliente()
@@ -131,9 +128,9 @@ static void opcionModificacionCliente()
         {
             printf("El id es invalido\n");
         }
-        else(val_getString(nombre, "\nNombre? ", "Error\n",2,50) == 0 &&
-           val_getString(apellido, "\nApellido ", "Erro\n",2,50) == 0 &&
-           val_getDni(dni, "\nDni? ", "Error\n",2,50) == 0);
+        else(!val_getString(nombre, "\nNombre? ", "Error\n",2,50) &&
+            !val_getString(apellido, "\nApellido ", "Erro\n",2,50) &&
+            !val_getDni(dni, "\nDni? ", "Error\n",2,50));
         {
             cont_modificarCliente(id,nombre,apellido,dni);
         }

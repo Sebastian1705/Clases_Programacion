@@ -1,4 +1,2 @@
 Id,Nombre,Apellido,Dni
-0,nico,aguirre,35000428
-1,mica,salega,37200858
-2,mirta ,machado,12345687
+0,seba,aguitte,35222505

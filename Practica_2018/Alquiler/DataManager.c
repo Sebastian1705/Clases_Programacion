@@ -26,35 +26,53 @@ int dm_saveAllCliente(ArrayList* nominaCliente)
     return retorno;
 }
 
-int dm_readAllCliente(ArrayList* nominaCliente)
+int dm_readAllCliente(ArrayList* nominaClientes)
 {
+    int retorno=-1;
+ /*
+    Socio auxSocio;
+    int maxId=0;
+    Socio* pSocio=NULL;
+    FILE* pArchivoSocios=fopen(ARCHIVO_SOCIOS,"rb");
+    if(pArchivoSocios!=NULL)
+    {
+        do{
+            if(fread(&auxSocio,sizeof(Socio),1,pArchivoSocios)==1)
+            {
+                pSocio=socio_new(auxSocio.id,auxSocio.nombre,auxSocio.apellido,auxSocio.dni,auxSocio.estado);
+                al_add(pArraySocios,pSocio);
+                if(auxSocio.id>maxId)
+                {
+                    maxId=auxSocio.id;
+                }
+                retorno=maxId;
+            }
+        }while(!feof(pArchivoSocios));
+        fclose(pArchivoSocios);
+    }
+*/
+
     FILE *pFile;
 	Cliente* auxCliente;
-	int retorno=-1;
-    int maxId = 0 ;
-    char id[10], nombre[50], apellido[50], dni[10];
-    pFile = fopen("Clientes.txt","r");
 
+    char var1[50],var2[50],var3[50],var4[50];
+    pFile = fopen("data.csv","r");
 	if(pFile!=NULL)
     {
-		fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]\n",id,nombre,apellido,dni);
+		fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4);
         do{
-            if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]\n",id,nombre,apellido,dni) >0)
+            if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4) >0)
 			{
-				if(val_validarInt(id)!=-1 && val_validarString(nombre)!=-1 && val_validarString(apellido)!=-1 && val_validarDni(dni)!=-1)
-				{
-					auxCliente=cliente_new(nombre,apellido,dni,atoi(id),CLIENTE_ALTA);
-					al_add(nominaCliente, auxCliente);
-					if(cliente_getId(auxCliente) > maxId)
-                    {
-                        maxId = cliente_getId(auxCliente);
-                    }
-                    retorno = maxId;
-				}
+				//if(val_validarInt(var1)!=-1 && val_validarDescripcion(var2)!=-1 && val_validarDescripcion(var3)!=-1 && val_validarInt(var4)!=-1 && val_validarInt(var5)!=-1)
+
+					auxCliente=cliente_new(var1,var2,var3,atoi(var4),CLIENTE_ALTA);
+					al_add(nominaClientes, auxCliente);
+					retorno=0;
+
 			}
 		}while(!feof(pFile));
         fclose(pFile);
 	}
-	return retorno;
-}
 
+    return retorno;
+}

@@ -14,7 +14,7 @@ static int setNewIdCliente(int id);
 void cont_init()
 {
     nominaCliente = al_newArrayList();
-    //setNewIdCliente(dm_readAllCliente(nominaCliente) + 1);
+    setNewIdCliente(dm_readAllCliente(nominaCliente) + 1);
     vista_init(VISTA_IDIOMA_ES);
     vista_mostrarMenu();
 }
