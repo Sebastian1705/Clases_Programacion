@@ -8,6 +8,25 @@
 void em_calcularSueldo(void* p)
 {
     //Leer campos y escribir sueldo
+    int horas, primerasHoras=180, de120a160=240, de160a240=350;
+    if(p != NULL)
+    {
+       horas = empleado_getHorasTrabajadas(p);
+       if(horas <= 120)
+       {
+            horas = horas * primerasHoras;
+       }
+       else if(horas > 120 && horas <= 160)
+       {
+            horas = horas * de120a160;
+       }
+       else
+       {
+            horas = horas * de160a240;
+       }
+    }
+    empleado_setSueldo(p,horas);
+
 }
 
 Empleado* empleado_new(int id,char* nombre,int horasTrabajadas,int sueldo)

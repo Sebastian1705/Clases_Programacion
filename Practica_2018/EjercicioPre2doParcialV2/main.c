@@ -28,7 +28,7 @@ int main()
 {
     // Definir lista de empleados
     ArrayList* listaEmpleados;
-
+    listaEmpleados = al_newArrayList();
     // Crear lista empledos
     //...
 
@@ -56,5 +56,22 @@ int main()
 
 int generarArchivoSueldos(char* fileName,ArrayList* listaEmpleados)
 {
-    return 1;
+    int i;
+    int retorno=-1;
+
+    FILE* pFile=fopen(fileName,"w");
+    void* pCliente=NULL;
+    if(pFile!=NULL)
+    {
+		fprintf(pFile,"Id,Nombre,Horas,Sueldo\n");
+        for(i=0;i<al_len(listaEmpleados);i++)
+        {
+            pCliente=al_get(listaEmpleados,i);
+            fprintf(pFile, "%d,%s,%d,%d\n", empleado_getId(pCliente), empleado_getNombre(pCliente),
+                                            empleado_getHorasTrabajadas(pCliente),empleado_getSueldo(pCliente));
+            retorno=1;
+        }
+    }
+    fclose(pFile);
+    return retorno;
 }
