@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1529618007 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529618007 /home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/ArrayList.h
+
+1529543262 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Parser.c
+	"ArrayList.h"
+
+1529616732 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1529616732 /home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Validaciones.h
+
+1529599202 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Parser.h"
+
+1529618558 /home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Empleado.h
+	"ArrayList.h"
+
+1529543258 /home/alumno/Escritorio/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Parser.h
+	"ArrayList.h"
+
