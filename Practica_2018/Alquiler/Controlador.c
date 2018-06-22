@@ -67,7 +67,7 @@ int cont_listarCliente ()
 
 int cont_ordenarCliente ()
 {
-
+    al_sort(nominaCliente,cliente_compareByApellido,1);
     return 0;
 }
 

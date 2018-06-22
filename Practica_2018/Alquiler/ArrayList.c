@@ -445,6 +445,7 @@ int al_sort (ArrayList* this, int (*pFunc)(void*, void*), int order)
         returnAux = 0;
     }
     return returnAux;
+
 }
 void al_map (ArrayList* this, void (*func)(void*))
 {

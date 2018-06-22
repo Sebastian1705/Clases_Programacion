@@ -42,6 +42,7 @@ int vista_mostrarMenu()
                 opcionBajaCliente();
                 break;
             case 4:
+                opcionOrdenarCliente();
                 opcionListadoCliente();
                 break;
             case 5:
@@ -85,9 +86,9 @@ static void opcionAltaCliente()
     char nombre[50];
     char apellido[50];
     char dni[50];
-    if(val_getString(nombre, "\nNombre? ", "Error\n",2,50) == 0 &&
-       val_getString(apellido, "\nApellido? ", "Error\n",2,50) == 0 &&
-       val_getDni(dni, "\nDni? ", "Error\n",2,50) == 0)
+    if(val_getString(nombre, "\nIngrese el nombre: ", "Error\n",2,50) == 0 &&
+       val_getString(apellido, "Ingrese el apellido: ", "Error\n",2,50) == 0 &&
+       val_getDni(dni, "Ingrese el dni: ", "Error\n",2,50) == 0)
     {
         cont_altaCliente(nombre,apellido,dni);
     }
@@ -121,16 +122,16 @@ static void opcionModificacionCliente()
     char apellido[50];
     char dni[50];
 
-    if((val_getUnsignedInt(auxId,"Id a modificar " , "Error\n",2,10)==0))
+    if((val_getUnsignedInt(auxId,"Ingrese el id a modificar: " , "Error\n",2,10)==0))
     {
         id = atoi(auxId);
         if(cont_existeCliente(id)!=0)
         {
             printf("El id es invalido\n");
         }
-        else(!val_getString(nombre, "\nNombre? ", "Error\n",2,50) &&
-            !val_getString(apellido, "\nApellido ", "Erro\n",2,50) &&
-            !val_getDni(dni, "\nDni? ", "Error\n",2,50));
+        else(   !val_getString(nombre, "\nIngrese el nombre: ", "Error\n",2,50) &&
+                !val_getString(apellido, "\nIngrese el apellido: ", "Error\n",2,50) &&
+                !val_getDni(dni, "\nIngrese el dni: ", "Error\n",2,50));
         {
             cont_modificarCliente(id,nombre,apellido,dni);
         }

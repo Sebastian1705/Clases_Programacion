@@ -231,7 +231,8 @@ void cliente_imprimir(void* pCliente) //cambiar nombre entidad
 
     if(cliente_getEstado(pCliente) == CLIENTE_ALTA)
         {
-            printf("ID: %d - NOMBRE: %s - APELLIDO: %s- DNI: %s\n",cliente_getId(pCliente),cliente_getNombre(pCliente),cliente_getApellido(pCliente),cliente_getDni(pCliente));
+            printf("ID: %d - NOMBRE: %s - APELLIDO: %s - DNI: %s\n",cliente_getId(pCliente),cliente_getNombre(pCliente),
+                                                                    cliente_getApellido(pCliente),cliente_getDni(pCliente));
         }
 }
 

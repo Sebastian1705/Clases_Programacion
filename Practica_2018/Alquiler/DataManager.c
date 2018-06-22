@@ -14,11 +14,12 @@ int dm_saveAllCliente(ArrayList* nominaCliente)
     void* pCliente=NULL;
     if(pFile!=NULL)
     {
-		fprintf(pFile,"Id,Nombre,Apellido,Dni\n");
-        for(i=0;i<al_len(nominaCliente);i++)
+        fprintf(pFile,"Id,Nombre,Apellido,Dni\n");
+        for(i=0; i<al_len(nominaCliente); i++)
         {
             pCliente=al_get(nominaCliente,i);
-            fprintf(pFile, "%d,%s,%s,%s\n",cliente_getId(pCliente),cliente_getNombre(pCliente),cliente_getApellido(pCliente),cliente_getDni(pCliente));
+            fprintf(pFile, "%d,%s,%s,%s\n",cliente_getId(pCliente),cliente_getNombre(pCliente),
+                    cliente_getApellido(pCliente),cliente_getDni(pCliente));
             retorno=0;
         }
     }
@@ -28,51 +29,41 @@ int dm_saveAllCliente(ArrayList* nominaCliente)
 
 int dm_readAllCliente(ArrayList* nominaClientes)
 {
-    int retorno=-1;
- /*
-    Socio auxSocio;
+    int retorno = -1;
+    char bId[4096];
+    char bNombre[4096];
+    char bApellido[4096];
+    char bDni[4096];
+
+    FILE* pFile = fopen("Clientes.txt", "r");
     int maxId=0;
-    Socio* pSocio=NULL;
-    FILE* pArchivoSocios=fopen(ARCHIVO_SOCIOS,"rb");
-    if(pArchivoSocios!=NULL)
+
+    Cliente* auxiliarCliente;
+
+    if(pFile != NULL)
     {
-        do{
-            if(fread(&auxSocio,sizeof(Socio),1,pArchivoSocios)==1)
+        retorno = 0;
+        fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",bId,bNombre,bApellido,bDni);
+        do
+        {
+            if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",bId,bNombre,bApellido,bDni)==3);
             {
-                pSocio=socio_new(auxSocio.id,auxSocio.nombre,auxSocio.apellido,auxSocio.dni,auxSocio.estado);
-                al_add(pArraySocios,pSocio);
-                if(auxSocio.id>maxId)
+                if( !val_validarUnsignedInt(bId) && !val_validarString(bNombre)&&
+                        !val_validarString(bApellido) && !val_validarDni(bDni))
                 {
-                    maxId=auxSocio.id;
+                    auxiliarCliente = cliente_new(bNombre,bApellido,bDni,atoi(bId),CLIENTE_ALTA);
+                    al_add(nominaClientes,auxiliarCliente);
+                    if(cliente_getId(auxiliarCliente)>maxId)
+                    {
+                        maxId=cliente_getId(auxiliarCliente);
+                    }
+                    retorno=maxId;
+
                 }
-                retorno=maxId;
             }
-        }while(!feof(pArchivoSocios));
-        fclose(pArchivoSocios);
+        }
+        while(!feof(pFile));
     }
-*/
-
-    FILE *pFile;
-	Cliente* auxCliente;
-
-    char var1[50],var2[50],var3[50],var4[50];
-    pFile = fopen("data.csv","r");
-	if(pFile!=NULL)
-    {
-		fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4);
-        do{
-            if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4) >0)
-			{
-				//if(val_validarInt(var1)!=-1 && val_validarDescripcion(var2)!=-1 && val_validarDescripcion(var3)!=-1 && val_validarInt(var4)!=-1 && val_validarInt(var5)!=-1)
-
-					auxCliente=cliente_new(var1,var2,var3,atoi(var4),CLIENTE_ALTA);
-					al_add(nominaClientes, auxCliente);
-					retorno=0;
-
-			}
-		}while(!feof(pFile));
-        fclose(pFile);
-	}
 
     return retorno;
 }
