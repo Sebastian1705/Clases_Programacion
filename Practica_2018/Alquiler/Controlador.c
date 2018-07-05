@@ -5,11 +5,17 @@
 #include "DataManager.h"
 #include "Vista.h"
 #include "Cliente.h"
+#include "Ventas.h"
 
 static ArrayList* nominaCliente;
 static int proximoIdCliente=0;
 static int getNewIdCliente();
 static int setNewIdCliente(int id);
+
+static ArrayList* nominaVenta;
+static int proximoIdVenta=0;
+static int getNewIdVenta();
+static int setNewIdVenta(int id);
 
 void cont_init()
 {
@@ -67,7 +73,7 @@ int cont_listarCliente ()
 
 int cont_ordenarCliente ()
 {
-    al_sort(nominaCliente,cliente_compareByApellido,1);
+    al_sort(nominaCliente,cliente_compareById,0);
     return 0;
 }
 
@@ -92,4 +98,38 @@ int cont_existeCliente(int id)
         retorno = 0;
     }
     return retorno;
+}
+
+
+static int getNewIdVenta()
+{
+    return proximoIdVenta++;
+}
+
+static int setNewIdVenta(int id)
+{
+    proximoIdVenta = id;
+    return 0;
+}
+
+int cont_altaVenta(int idCliente,int producto, int cantidad)
+{
+    Ventas* auxVenta;
+    float precio = 0;
+    if(producto == IPHONE7)
+    {
+        precio = PRECIO_IPHONE7;
+    }
+    else if(producto == PS4)
+    {
+        precio = PRECIO_PS4;
+    }
+    else
+    {
+        precio == PRECIO_TV_LG_32;
+    }
+    auxVenta = ventas_new(getNewIdVenta(),idCliente,producto,cantidad,precio,VENTA_ACTIVA);
+    al_add(nominaVenta, auxVenta);
+    //dm_saveAllVenta(nominaVenta);
+    return 0;
 }

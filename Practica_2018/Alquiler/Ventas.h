@@ -12,6 +12,14 @@ typedef struct
 	int estado;
 }Ventas;
 #endif// _VENTAS_H
+#define PRECIO_IPHONE7 19498.99
+#define PRECIO_PS4 12999.99
+#define PRECIO_TV_LG_32 8999.99
+#define IPHONE7 1002
+#define PS4 1001
+#define TV_LG_32 1000
+#define VENTA_ACTIVA 1
+#define VENTA_BAJA 0
 
 Ventas* ventas_new(int id_ventas,int id_clientes,int codProducto,int cantidad,float precioUnitario,int estado);
 void ventas_delete(Ventas* this);

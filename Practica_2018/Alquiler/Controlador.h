@@ -6,3 +6,5 @@ int cont_listarCliente ();
 int cont_ordenarCliente ();
 
 int cont_existeCliente(int id);
+
+int cont_altaVenta(int idCliente,int producto, int cantidad);

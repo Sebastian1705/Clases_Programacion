@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1530299900 source:c:\users\liliana\desktop\programacion\c\tp3\tp_3_cascara\getsvalids.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"getsValids.h"
+
+1530299818 c:\users\liliana\desktop\programacion\c\tp3\tp_3_cascara\getsvalids.h
+
+1530300227 source:c:\users\liliana\desktop\programacion\c\tp3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1530296367 c:\users\liliana\desktop\programacion\c\tp3\tp_3_cascara\funciones.h
+
+1530299957 source:c:\users\liliana\desktop\programacion\c\tp3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"getsValids.h"
+
+1530287526 source:f:\downloads\downloads torrent\labo1\trabajos-practicos-prog-lab-1-master\trabajos-practicos-prog-lab-1-master\tp3\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"getsValids.h"
+
+1530287526 f:\downloads\downloads torrent\labo1\trabajos-practicos-prog-lab-1-master\trabajos-practicos-prog-lab-1-master\tp3\tp_3_cascara\funciones.h
+
+1530287526 f:\downloads\downloads torrent\labo1\trabajos-practicos-prog-lab-1-master\trabajos-practicos-prog-lab-1-master\tp3\tp_3_cascara\getsvalids.h
+
+1530287526 source:f:\downloads\downloads torrent\labo1\trabajos-practicos-prog-lab-1-master\trabajos-practicos-prog-lab-1-master\tp3\tp_3_cascara\getsvalids.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"getsValids.h"
+
+1530287526 source:f:\downloads\downloads torrent\labo1\trabajos-practicos-prog-lab-1-master\trabajos-practicos-prog-lab-1-master\tp3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1530657030 source:f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"getsValids.h"
+
+1530655886 f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\funciones.h
+	"Model.h"
+
+1530655917 f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\model.h
+
+1530287526 f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\getsvalids.h
+
+1530287526 source:f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\getsvalids.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"getsValids.h"
+
+1530657096 source:f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"Model.h"
+
+1530655912 source:f:\downloads\downloads torrent\labo1\clase_arquitectura\2_tp3_model\tp_3_cascara\model.c
+	"Model.h"
+

@@ -12,6 +12,9 @@ static void opcionBajaCliente();
 static void opcionModificacionCliente();
 static void opcionListadoCliente();
 static void opcionOrdenarCliente();
+
+static void opcionAltaVenta();
+
 static int idiomaVista;
 
 int vista_init (int idioma)
@@ -46,7 +49,7 @@ int vista_mostrarMenu()
                 opcionListadoCliente();
                 break;
             case 5:
-
+                opcionAltaVenta();
                 break;
             case 6:
 
@@ -148,4 +151,22 @@ static void opcionListadoCliente()
 static void opcionOrdenarCliente()
 {
     cont_ordenarCliente();
+}
+
+
+static void opcionAltaVenta()
+{
+    char producto[50];
+    char cantidad[50];
+    char idCliente[50];
+    if(!val_getUnsignedInt(idCliente, "\nIngrese el Id del cliente: ", "Error\n",2,50) &&
+       !val_getInt(producto, "Ingrese el codigo del producto: ", "Error\n",2,50)  &&
+       !val_getInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50) == 0)
+    {
+        if(atoi(producto) > 999 && atoi(producto) < 1003)
+        {
+            cont_altaVenta(atoi(idCliente),atoi(producto),atoi(cantidad));
+        }
+    }
+
 }
