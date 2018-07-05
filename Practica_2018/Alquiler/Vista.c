@@ -129,9 +129,9 @@ static void opcionModificacionCliente()
         {
             printf("El id es invalido\n");
         }
-        else(   !val_getString(nombre, "\nIngrese el nombre: ", "Error\n",2,50) &&
-                !val_getString(apellido, "\nIngrese el apellido: ", "Error\n",2,50) &&
-                !val_getDni(dni, "\nIngrese el dni: ", "Error\n",2,50));
+        else(   !val_getDni(dni, "\nIngrese el dni: ", "Error\n",2,50) &&
+                !val_getString(nombre, "\nIngrese el nombre: ", "Error\n",2,50) &&
+                !val_getString(apellido, "\nIngrese el apellido: ", "Error\n",2,50));
         {
             cont_modificarCliente(id,nombre,apellido,dni);
         }
