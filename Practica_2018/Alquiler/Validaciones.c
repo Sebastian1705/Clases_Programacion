@@ -14,17 +14,20 @@
 void myFgets(char* buffer, int limite,FILE* archivo)
 {
     int i=0;
-    fgets(buffer, limite,archivo);
-    buffer[limite-1] = '\0';
-    while(buffer[i] != '\0')
+    if(fgets(buffer, limite,archivo)!=NULL)
     {
-        if(buffer[i] == 10)//10 -> LF
+        buffer[limite-1] = '\0';
+        while(buffer[i] != '\0')
         {
-            buffer[i] = '\0';
-            break;
+            if(buffer[i] == 10)//10 -> LF
+            {
+                buffer[i] = '\0';
+                break;
+            }
+            i++;
         }
-        i++;
     }
+
 }
 
 /** \brief Toma un dato a ingresar de tipo string
@@ -105,7 +108,7 @@ int val_getUnsignedInt(char* destino,char* mensaje,char* mensajeError,int intent
     if(destino != NULL && limite > 0 && limite < MAX_INPUT_BUFFER)
     {
         printf("%s",mensaje);
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, limite ,stdin);
 
@@ -183,7 +186,7 @@ int val_getInt(char* destino,char* mensaje,char* mensajeError,int intentos,int l
     if(destino != NULL && limite > 0 && limite < MAX_INPUT_BUFFER)
     {
         printf("%s",mensaje);
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, limite ,stdin);
 
@@ -236,7 +239,7 @@ int val_validarInt(char* buffer)
  * \return -1 error, 0 OK
  *
  */
- int val_getFloat(char* destino,char* mensaje,char* mensajeError,int intentos,int limite)
+int val_getFloat(char* destino,char* mensaje,char* mensajeError,int intentos,int limite)
 {
     int retorno = -1;
     char buffer[MAX_INPUT_BUFFER];
@@ -244,7 +247,7 @@ int val_validarInt(char* buffer)
     if(destino != NULL && limite > 0 && limite < MAX_INPUT_BUFFER)
     {
         printf("%s",mensaje);
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
 
             myFgets(buffer, limite ,stdin);
@@ -313,7 +316,7 @@ int val_getEmail(char* destino,char* mensaje,char* mensajeError,int intentos,int
     if(destino != NULL && limite > 0 && limite < MAX_INPUT_BUFFER)
     {
         printf("%s",mensaje);
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, limite ,stdin);
 
@@ -358,7 +361,7 @@ int val_getDni(char* destino, char* mensaje, char* mensajeError, int intentos, i
     {
         printf("%s",mensaje);
 
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, limite ,stdin);
 
@@ -415,7 +418,7 @@ int val_getAlfanumerico(char* destino, char* mensaje, char* mensajeError, int in
     if(destino != NULL && len > 0 && len < MAX_INPUT_BUFFER)
     {
         printf("%s",mensaje);
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, len ,stdin);
 
@@ -468,7 +471,7 @@ int val_getCuit(char* destino, char* mensaje, char* mensajeError, int intentos, 
     {
         printf("%s",mensaje);
 
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, limite ,stdin);
 
@@ -532,7 +535,7 @@ int val_getTelefono(char* destino, char* mensaje, char* mensajeError, int intent
     {
         printf("%s",mensaje);
 
-        for( ;intentos>0;intentos--)
+        for( ; intentos>0; intentos--)
         {
             myFgets(buffer, limite ,stdin);
 

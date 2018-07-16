@@ -43,26 +43,27 @@ int dm_readAllCliente(ArrayList* nominaClientes)
     if(pFile != NULL)
     {
         retorno = 0;
-        fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",bId,bNombre,bApellido,bDni);
-        do
+        if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",bId,bNombre,bApellido,bDni)==4)
         {
-            if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",bId,bNombre,bApellido,bDni)==3);
+            do
             {
-                if( !val_validarUnsignedInt(bId) && !val_validarString(bNombre)&&
-                        !val_validarString(bApellido) && !val_validarDni(bDni))
+                if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",bId,bNombre,bApellido,bDni)==4)
                 {
-                    auxiliarCliente = cliente_new(bNombre,bApellido,bDni,atoi(bId),CLIENTE_ALTA);
-                    al_add(nominaClientes,auxiliarCliente);
-                    if(cliente_getId(auxiliarCliente)>maxId)
+                    if( !val_validarUnsignedInt(bId) && !val_validarString(bNombre)&&
+                            !val_validarString(bApellido) && !val_validarDni(bDni))
                     {
-                        maxId=cliente_getId(auxiliarCliente);
+                        auxiliarCliente = cliente_new(bNombre,bApellido,bDni,atoi(bId),CLIENTE_ALTA);
+                        al_add(nominaClientes,auxiliarCliente);
+                        if(cliente_getId(auxiliarCliente)>maxId)
+                        {
+                            maxId=cliente_getId(auxiliarCliente);
+                        }
+                        retorno=maxId;
                     }
-                    retorno=maxId;
-
                 }
             }
+            while(!feof(pFile));
         }
-        while(!feof(pFile));
     }
 
     return retorno;

@@ -73,7 +73,7 @@ int cont_listarCliente ()
 
 int cont_ordenarCliente ()
 {
-    al_sort(nominaCliente,cliente_compareById,0);
+    al_sort(nominaCliente,cliente_compareByApellido,1);
     return 0;
 }
 
@@ -126,7 +126,7 @@ int cont_altaVenta(int idCliente,int producto, int cantidad)
     }
     else
     {
-        precio == PRECIO_TV_LG_32;
+        precio = PRECIO_TV_LG_32;
     }
     auxVenta = ventas_new(getNewIdVenta(),idCliente,producto,cantidad,precio,VENTA_ACTIVA);
     al_add(nominaVenta, auxVenta);

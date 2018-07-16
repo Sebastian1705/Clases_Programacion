@@ -186,6 +186,10 @@ int cliente_compareByApellido(void* pA ,void* pB)
 	int retorno;
 
 	retorno = strcmp(cliente_getApellido(pA),cliente_getApellido(pB));
+	if(retorno>0)
+        retorno=1;
+    else if(retorno<0)
+        retorno= -1;
 
 	return retorno;
 }
