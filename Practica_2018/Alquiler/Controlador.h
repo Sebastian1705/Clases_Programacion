@@ -8,4 +8,6 @@ int cont_ordenarCliente ();
 int cont_existeCliente(int id);
 
 int cont_altaVenta(int idCliente,int producto, int cantidad);
-void imprimir_ventas(void* pVentas);
+void cont_listarVentas();
+
+void cont_imprimir_ventas(void* pVentas);

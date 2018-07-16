@@ -48,3 +48,4 @@ int ventas_compareByCantidad(void* pA ,void* pB);
 int ventas_compareByPrecioUnitario(void* pA ,void* pB);
 int ventas_compareByEstado(void* pA ,void* pB);
 
+void ventas_imprimir(void* pVentas);

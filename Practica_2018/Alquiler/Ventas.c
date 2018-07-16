@@ -280,4 +280,14 @@ int ventas_compareByEstado(void* pA ,void* pB)
 	return retorno;
 }
 
+void ventas_imprimir(void* pVentas) //cambiar nombre entidad
+{
+
+    if(ventas_getEstado(pVentas) == VENTA_ACTIVA)
+        {
+            printf("ID_CLIENTE: %d - ID_VENTA: %d - COD_PRODUCTO: %d - CANTIDAD: %d - PRECIO: %.2f\n",
+                   ventas_getId_clientes(pVentas),ventas_getId_ventas(pVentas),ventas_getCodProducto(pVentas),
+                   ventas_getCantidad(pVentas),ventas_getPrecioUnitario(pVentas));
+        }
+}
 

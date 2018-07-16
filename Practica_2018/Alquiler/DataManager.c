@@ -92,3 +92,51 @@ int dm_saveAllVenta(ArrayList* nominaVenta)
     fclose(pFile);
     return retorno;
 }
+
+int dm_readAllVentas(ArrayList* nominaVenta)
+{
+    int retorno = -1;
+    char bId_venta[4096];
+    char bId_cliente[4096];
+    char bCod_producto[4096];
+    char bCantidad[4096];
+    char bPrecio[4096];
+
+    FILE* pFile = fopen("Venta.txt", "r");
+    int maxId=0;
+
+    Ventas* auxiliarVenta;
+
+    if(pFile != NULL)
+    {
+        retorno = 0;
+        if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,],%[^\n]\n",bId_venta,bId_cliente,
+                  bCod_producto,bCantidad,bPrecio)==5)
+        {
+            do
+            {
+                if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,],%[^\n]\n",bId_venta,bId_cliente,
+                  bCod_producto,bCantidad,bPrecio)==5)
+                {
+                    if( !val_validarUnsignedInt(bId_venta) && !val_validarUnsignedInt(bId_cliente) &&
+                        !val_validarInt(bCod_producto) && !val_validarUnsignedInt(bCantidad) &&
+                        !val_validarFloat(bPrecio))
+                    {
+                        auxiliarVenta = ventas_new(atoi(bId_venta),atoi(bId_cliente),atoi(bCod_producto),
+                                                   atoi(bCantidad),atof(bPrecio),VENTA_ACTIVA);
+                        al_add(nominaVenta,auxiliarVenta);
+                        if(ventas_getId_ventas(auxiliarVenta) > maxId)
+                        {
+                            maxId = ventas_getId_ventas(auxiliarVenta);
+                        }
+                        retorno=maxId;
+                    }
+                }
+            }
+            while(!feof(pFile));
+        }
+    }
+
+    return retorno;
+}
+

@@ -14,6 +14,7 @@ static void opcionListadoCliente();
 static void opcionOrdenarCliente();
 
 static void opcionAltaVenta();
+static void opcionListadoVenta();
 
 static int idiomaVista;
 
@@ -55,7 +56,7 @@ int vista_mostrarMenu()
 
                 break;
             case 7:
-
+                opcionListadoVenta();
                 break;
             case 8:
 
@@ -76,6 +77,12 @@ void vista_mostrarCliente(ArrayList* nominaCliente)
 {
     al_map(nominaCliente,cliente_imprimir);
 }
+
+void vista_mostrarVentas(ArrayList* nominaVenta)
+{
+    al_map(nominaVenta,cont_imprimir_ventas);
+}
+
 
 void mostrarError(char * mensaje)
 {
@@ -148,6 +155,12 @@ static void opcionListadoCliente()
     cont_listarCliente();
 }
 
+static void opcionListadoVenta()
+{
+    cont_listarVentas();
+}
+
+
 static void opcionOrdenarCliente()
 {
     cont_ordenarCliente();
@@ -161,7 +174,7 @@ static void opcionAltaVenta()
     char idCliente[50];
     if(!val_getUnsignedInt(idCliente, "\nIngrese el Id del cliente: ", "Error\n",2,50) &&
        !val_getInt(producto, "Ingrese el codigo del producto: ", "Error\n",2,50)  &&
-       !val_getInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50) == 0)
+       !val_getInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50))
     {
         if(atoi(producto) > 999 && atoi(producto) < 1003)
         {
@@ -172,7 +185,3 @@ static void opcionAltaVenta()
 }
 
 
-void vista_mostrarVentas(ArrayList* nominaVentas)
-{
-    al_map(nominaVentas,imprimir_ventas);
-}

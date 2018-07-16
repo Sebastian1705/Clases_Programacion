@@ -240,7 +240,7 @@
 1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.h
 	"ArrayList.h"
 
-1531749780 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.c
+1531759425 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -250,11 +250,11 @@
 	"Cliente.h"
 	"Ventas.h"
 
-1531749780 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.h
+1531759279 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.h
 
-1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.h
+1531757224 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.h
 
-1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.c
+1531759242 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -270,7 +270,7 @@
 	<stdlib.h>
 	"Controlador.h"
 
-1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.h
+1531756447 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.h
 
 1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.c
 	<stdio.h>
@@ -278,17 +278,17 @@
 	<string.h>
 	"Validaciones.h"
 
-1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.c
+1531754645 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 	"Ventas.h"
 
-1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.h
+1531754861 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.h
 	"ArrayList.h"
 
-1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.c
+1531756927 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

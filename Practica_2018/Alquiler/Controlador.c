@@ -21,6 +21,10 @@ void cont_init()
 {
     nominaCliente = al_newArrayList();
     setNewIdCliente(dm_readAllCliente(nominaCliente) + 1);
+
+    nominaVenta = al_newArrayList();
+    setNewIdVenta(dm_readAllVentas(nominaVenta) + 1);
+
     vista_init(VISTA_IDIOMA_ES);
     vista_mostrarMenu();
 }
@@ -136,7 +140,7 @@ int cont_altaVenta(int idCliente,int producto, int cantidad)
 
 
 
-void imprimir_ventas(void* pVentas) //cambiar nombre entidad
+void cont_imprimir_ventas(void* pVentas) //cambiar nombre entidad
 {
     float montoFacturado = ventas_getCantidad(pVentas)*ventas_getPrecioUnitario(pVentas);
     int idCliente;
@@ -155,3 +159,8 @@ void imprimir_ventas(void* pVentas) //cambiar nombre entidad
     }
 }
 
+int cont_listarVentas()
+{
+    vista_mostrarVentas(nominaVenta);
+    return 0;
+}

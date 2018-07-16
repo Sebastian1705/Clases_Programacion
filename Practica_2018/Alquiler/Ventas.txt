@@ -1,0 +1,4 @@
+Id_venta,Id_cliente,codProducto,cantidad,precioUnitario
+0,15,1001,13,12999.990234
+1,25,1000,5,8999.990234
+2,35,1000,56,8999.990234
