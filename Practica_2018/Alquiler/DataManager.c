@@ -4,6 +4,7 @@
 #include "DataManager.h"
 #include "Cliente.h"
 #include "Validaciones.h"
+#include "Ventas.h"
 
 int dm_saveAllCliente(ArrayList* nominaCliente)
 {
@@ -66,5 +67,28 @@ int dm_readAllCliente(ArrayList* nominaClientes)
         }
     }
 
+    return retorno;
+}
+
+
+int dm_saveAllVenta(ArrayList* nominaVenta)
+{
+    int i;
+    int retorno=-1;
+
+    FILE* pFile=fopen("Ventas.txt","w");
+    void* pVenta=NULL;
+    if(pFile!=NULL)
+    {
+        fprintf(pFile,"Id_venta,Id_cliente,codProducto,cantidad,precioUnitario\n");
+        for(i=0; i<al_len(nominaVenta); i++)
+        {
+            pVenta=al_get(nominaVenta,i);
+            fprintf(pFile, "%d,%d,%d,%d,%f\n", ventas_getId_ventas(pVenta),ventas_getId_clientes(pVenta),
+                                    ventas_getCodProducto(pVenta),ventas_getCantidad(pVenta),ventas_getPrecioUnitario(pVenta));
+            retorno=0;
+        }
+    }
+    fclose(pFile);
     return retorno;
 }

@@ -133,3 +133,25 @@ int cont_altaVenta(int idCliente,int producto, int cantidad)
     //dm_saveAllVenta(nominaVenta);
     return 0;
 }
+
+
+
+void imprimir_ventas(void* pVentas) //cambiar nombre entidad
+{
+    float montoFacturado = ventas_getCantidad(pVentas)*ventas_getPrecioUnitario(pVentas);
+    int idCliente;
+    Cliente* pCliente;
+    idCliente = ventas_getId_clientes(pVentas);
+    pCliente = cliente_findById(nominaCliente, idCliente);
+
+    if(pVentas != NULL && pCliente != NULL)
+    {
+        if(ventas_getEstado(pVentas) == VENTA_ACTIVA && cliente_getEstado(pCliente) == CLIENTE_ALTA)
+        {
+            printf("Id_venta: %d\tnombre_cliente: %s\tapellido_cliente: %s\tdni_cliente: %s\tcodigo_producto: %d\tmonto_facturado: %f\n",
+                    ventas_getId_ventas(pVentas),cliente_getNombre(pCliente),cliente_getApellido(pCliente),
+                    cliente_getDni(pCliente),ventas_getCodProducto(pVentas),montoFacturado);
+        }
+    }
+}
+

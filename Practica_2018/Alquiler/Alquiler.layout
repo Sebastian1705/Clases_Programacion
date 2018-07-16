@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
+	<File name="Ventas.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="403" topLine="27" />
+		</Cursor>
+	</File>
 	<File name="Ventas.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
@@ -49,7 +55,7 @@
 	</File>
 	<File name="Cliente.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2899" topLine="124" />
+			<Cursor1 position="2899" topLine="139" />
 		</Cursor>
 		<Folding>
 			<Collapse line="7" />
@@ -63,17 +69,6 @@
 			<Collapse line="58" />
 			<Collapse line="63" />
 			<Collapse line="68" />
-			<Collapse line="183" />
-			<Collapse line="233" />
-			<Collapse line="236" />
-		</Folding>
-	</File>
-	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="91" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="5" />
 		</Folding>
 	</File>
 	<File name="ArrayList.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
@@ -87,63 +82,11 @@
 			<Collapse line="60" />
 			<Collapse line="67" />
 			<Collapse line="71" />
-			<Collapse line="77" />
-			<Collapse line="82" />
-			<Collapse line="84" />
-			<Collapse line="87" />
-			<Collapse line="89" />
 		</Folding>
-	</File>
-	<File name="Vista.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1275" topLine="11" />
-		</Cursor>
-		<Folding>
-			<Collapse line="20" />
-			<Collapse line="26" />
-			<Collapse line="31" />
-			<Collapse line="36" />
-			<Collapse line="75" />
-			<Collapse line="80" />
-			<Collapse line="87" />
-			<Collapse line="94" />
-			<Collapse line="120" />
-			<Collapse line="128" />
-			<Collapse line="131" />
-			<Collapse line="137" />
-			<Collapse line="146" />
-			<Collapse line="151" />
-			<Collapse line="157" />
-			<Collapse line="164" />
-			<Collapse line="166" />
-		</Folding>
-	</File>
-	<File name="Controlador.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="305" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Validaciones.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Ventas.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="403" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="5" />
-		</Folding>
-	</File>
-	<File name="DataManager.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
 	</File>
 	<File name="Controlador.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2200" topLine="36" />
+			<Cursor1 position="2896" topLine="90" />
 		</Cursor>
 		<Folding>
 			<Collapse line="20" />
@@ -152,19 +95,16 @@
 			<Collapse line="43" />
 			<Collapse line="53" />
 			<Collapse line="58" />
-			<Collapse line="68" />
-			<Collapse line="74" />
-			<Collapse line="85" />
-			<Collapse line="104" />
-			<Collapse line="115" />
-			<Collapse line="119" />
-			<Collapse line="123" />
-			<Collapse line="127" />
 		</Folding>
 	</File>
-	<File name="Vista.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="683" topLine="0" />
+			<Cursor1 position="91" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controlador.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="305" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Cliente.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
@@ -175,17 +115,40 @@
 			<Collapse line="6" />
 		</Folding>
 	</File>
+	<File name="Vista.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="683" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="Validaciones.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="538" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="DataManager.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+	<File name="DataManager.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1118" topLine="0" />
+			<Cursor1 position="2106" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="Validaciones.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Vista.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1275" topLine="11" />
 		</Cursor>
 		<Folding>
-			<Collapse line="57" />
+			<Collapse line="20" />
+			<Collapse line="26" />
+			<Collapse line="31" />
+			<Collapse line="36" />
 		</Folding>
+	</File>
+	<File name="DataManager.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

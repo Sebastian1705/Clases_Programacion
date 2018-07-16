@@ -281,5 +281,3 @@ int ventas_compareByEstado(void* pA ,void* pB)
 }
 
 
-
-
