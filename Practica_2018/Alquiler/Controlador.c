@@ -130,7 +130,7 @@ int cont_altaVenta(int idCliente,int producto, int cantidad)
     }
     auxVenta = ventas_new(getNewIdVenta(),idCliente,producto,cantidad,precio,VENTA_ACTIVA);
     al_add(nominaVenta, auxVenta);
-    //dm_saveAllVenta(nominaVenta);
+    dm_saveAllVenta(nominaVenta);
     return 0;
 }
 

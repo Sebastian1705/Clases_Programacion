@@ -170,3 +170,9 @@ static void opcionAltaVenta()
     }
 
 }
+
+
+void vista_mostrarVentas(ArrayList* nominaVentas)
+{
+    al_map(nominaVentas,imprimir_ventas);
+}

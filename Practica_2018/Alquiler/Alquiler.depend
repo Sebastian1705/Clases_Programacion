@@ -222,25 +222,25 @@
 	"Controlador.h"
 	"Cliente.h"
 
-1531739910 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\arraylist.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\arraylist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 
-1531739910 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\arraylist.h
+1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\arraylist.h
 
-1531739910 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 	"Cliente.h"
 
-1531739910 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.h
+1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.h
 	"ArrayList.h"
 
-1531748488 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.c
+1531749780 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -250,11 +250,11 @@
 	"Cliente.h"
 	"Ventas.h"
 
-1531742794 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.h
+1531749780 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.h
 
-1531739911 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.h
+1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.h
 
-1531743042 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -263,32 +263,32 @@
 	"Validaciones.h"
 	"Ventas.h"
 
-1531739911 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.h
+1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.h
 
-1531739911 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\main.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Controlador.h"
 
-1531747465 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.h
+1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.h
 
-1531739911 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Validaciones.h"
 
-1531746928 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 	"Ventas.h"
 
-1531739911 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.h
+1531749643 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.h
 	"ArrayList.h"
 
-1531739911 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.c
+1531749643 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
