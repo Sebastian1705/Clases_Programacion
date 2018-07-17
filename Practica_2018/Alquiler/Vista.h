@@ -17,4 +17,5 @@ int vista_mostrarMenu();
 void mostrarError(char * mensaje);
 void vista_mostrarCliente(ArrayList* nominaCliente);
 void vista_mostrarVentas(ArrayList* nominaVenta);
+void vista_mostrarVentasProducto(ArrayList* nominaVenta);
 

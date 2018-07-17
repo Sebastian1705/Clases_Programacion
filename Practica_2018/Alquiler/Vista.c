@@ -15,6 +15,8 @@ static void opcionOrdenarCliente();
 
 static void opcionAltaVenta();
 static void opcionListadoVenta();
+static void opcionBajaVenta();
+static void opcionListadoVentaProducto();
 
 static int idiomaVista;
 
@@ -36,51 +38,47 @@ int vista_mostrarMenu()
 
         switch(option)
         {
-            case 1:
-                opcionAltaCliente();
-                break;
-            case 2:
-                opcionModificacionCliente();
-                break;
-            case 3:
-                opcionBajaCliente();
-                break;
-            case 4:
-                opcionOrdenarCliente();
-                opcionListadoCliente();
-                break;
-            case 5:
-                opcionAltaVenta();
-                break;
-            case 6:
+        case 1:
+            opcionAltaCliente();
+            break;
+        case 2:
+            opcionModificacionCliente();
+            break;
+        case 3:
+            opcionBajaCliente();
+            break;
+        case 4:
+            opcionOrdenarCliente();
+            opcionListadoCliente();
+            break;
+        case 5:
+            opcionAltaVenta();
+            break;
+        case 6:
+            opcionBajaVenta();
+            break;
+        case 7:
+            opcionListadoVenta();
+            break;
+        case 8:
+            opcionListadoVentaProducto();
+            break;
+        case 9:
 
-                break;
-            case 7:
-                opcionListadoVenta();
-                break;
-            case 8:
+            break;
+        case 10:
 
-                break;
-            case 9:
-
-                break;
-            case 10:
-
-                break;
+            break;
         }
     }
 
     return 0;
 }
 
+
 void vista_mostrarCliente(ArrayList* nominaCliente)
 {
     al_map(nominaCliente,cliente_imprimir);
-}
-
-void vista_mostrarVentas(ArrayList* nominaVenta)
-{
-    al_map(nominaVenta,cont_imprimir_ventas);
 }
 
 
@@ -97,8 +95,8 @@ static void opcionAltaCliente()
     char apellido[50];
     char dni[50];
     if(val_getString(nombre, "\nIngrese el nombre: ", "Error\n",2,50) == 0 &&
-       val_getString(apellido, "Ingrese el apellido: ", "Error\n",2,50) == 0 &&
-       val_getDni(dni, "Ingrese el dni: ", "Error\n",2,50) == 0)
+            val_getString(apellido, "Ingrese el apellido: ", "Error\n",2,50) == 0 &&
+            val_getDni(dni, "Ingrese el dni: ", "Error\n",2,50) == 0)
     {
         cont_altaCliente(nombre,apellido,dni);
     }
@@ -109,7 +107,7 @@ static void opcionBajaCliente()
     char auxId[10];
     int id;
 
-    if((val_getUnsignedInt(auxId,"Id a dar de baja " , "Error\n",2,10)==0))
+    if((val_getUnsignedInt(auxId,"Id a dar de baja ", "Error\n",2,10)==0))
     {
         id = atoi(auxId);
         if(cont_existeCliente(id)!=0)
@@ -132,7 +130,7 @@ static void opcionModificacionCliente()
     char apellido[50];
     char dni[50];
 
-    if((val_getUnsignedInt(auxId,"Ingrese el id a modificar: " , "Error\n",2,10)==0))
+    if((val_getUnsignedInt(auxId,"Ingrese el id a modificar: ", "Error\n",2,10)==0))
     {
         id = atoi(auxId);
         if(cont_existeCliente(id)!=0)
@@ -155,12 +153,6 @@ static void opcionListadoCliente()
     cont_listarCliente();
 }
 
-static void opcionListadoVenta()
-{
-    cont_listarVentas();
-}
-
-
 static void opcionOrdenarCliente()
 {
     cont_ordenarCliente();
@@ -172,16 +164,77 @@ static void opcionAltaVenta()
     char producto[50];
     char cantidad[50];
     char idCliente[50];
-    if(!val_getUnsignedInt(idCliente, "\nIngrese el Id del cliente: ", "Error\n",2,50) &&
-       !val_getInt(producto, "Ingrese el codigo del producto: ", "Error\n",2,50)  &&
-       !val_getInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50))
+    if(!val_getUnsignedInt(idCliente, "\nIngrese el Id del cliente: ", "Error\n",2,50))
     {
-        if(atoi(producto) > 999 && atoi(producto) < 1003)
+        if(cont_existeCliente(atoi(idCliente))==-1)
         {
-            cont_altaVenta(atoi(idCliente),atoi(producto),atoi(cantidad));
+            printf("El cliente no existe!\n\n");
+        }
+        else
+        {
+            if( !val_getInt(producto, "Ingrese el codigo del producto: ", "Error\n",2,50))
+            {
+                if(atoi(producto) > 999 && atoi(producto) < 1003)
+                {
+                    if(!val_getInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50))
+                       {
+                           cont_altaVenta(atoi(idCliente),atoi(producto),atoi(cantidad));
+                       }
+                }
+                else
+                {
+                    mostrarError("El codigo es incorrecto!\n\n");
+                }
+            }
         }
     }
 
 }
 
+static void opcionBajaVenta()
+{
+    char auxId[10];
+    int id;
+
+    if((val_getUnsignedInt(auxId,"Id a dar de baja ", "Error\n",2,10)==0))
+    {
+        id = atoi(auxId);
+        if(cont_existeVenta(id)!=0)
+        {
+           mostrarError("\nLa venta no existe!\n");
+        }
+        else
+        {
+            cont_bajaVenta(id);
+        }
+    }
+
+}
+
+static void opcionListadoVenta()
+{
+    cont_listarVentas();
+}
+
+
+static void opcionListadoVentaProducto()
+{
+    char codProducto[4096];
+    int cod;
+    if(!val_getUnsignedInt(codProducto,"Ingrese el codigo del producto: ","Error!",2,50))
+    {
+        cod = atoi(codProducto);
+        cont_listarVentasProducto(cod);
+    }
+}
+
+void vista_mostrarVentas(ArrayList* nominaVenta)
+{
+    al_map(nominaVenta,cont_imprimir_ventas);
+}
+
+void vista_mostrarVentasProducto(ArrayList* nominaVenta)
+{
+    al_map(nominaVenta,cont_imprimir_ventasProducto);
+}
 

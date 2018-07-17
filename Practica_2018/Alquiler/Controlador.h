@@ -11,3 +11,8 @@ int cont_altaVenta(int idCliente,int producto, int cantidad);
 void cont_listarVentas();
 
 void cont_imprimir_ventas(void* pVentas);
+int cont_existeVenta(int id);
+int cont_bajaVenta(int id);
+
+int cont_listarVentasProducto(int codProducto);
+void cont_imprimir_ventasProducto(void* pVentas);

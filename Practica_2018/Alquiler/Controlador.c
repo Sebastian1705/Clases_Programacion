@@ -29,6 +29,7 @@ void cont_init()
     vista_mostrarMenu();
 }
 
+
 int cont_altaCliente (char* nombre,char* apellido,char* dni)
 {
     Cliente* auxCliente;
@@ -52,7 +53,6 @@ int cont_bajaCliente (int id)
     }
     return 0;
 }
-
 
 int cont_modificarCliente(int id,char* nombre,char* apellido,char* dni)
 {
@@ -105,6 +105,18 @@ int cont_existeCliente(int id)
 }
 
 
+int cont_existeVenta(int id)
+{
+    int retorno = -1;
+    Ventas* auxVentas = ventas_findById_ventas(nominaVenta,id);
+
+    if (auxVentas != NULL && ventas_getEstado(auxVentas) == VENTA_ACTIVA)
+    {
+        retorno = 0;
+    }
+    return retorno;
+}
+
 static int getNewIdVenta()
 {
     return proximoIdVenta++;
@@ -134,11 +146,9 @@ int cont_altaVenta(int idCliente,int producto, int cantidad)
     }
     auxVenta = ventas_new(getNewIdVenta(),idCliente,producto,cantidad,precio,VENTA_ACTIVA);
     al_add(nominaVenta, auxVenta);
-    dm_saveAllVenta(nominaVenta);
+    dm_saveAllVentas(nominaVenta);
     return 0;
 }
-
-
 
 void cont_imprimir_ventas(void* pVentas) //cambiar nombre entidad
 {
@@ -164,3 +174,30 @@ int cont_listarVentas()
     vista_mostrarVentas(nominaVenta);
     return 0;
 }
+
+int cont_bajaVenta(int id)
+{
+    Ventas* auxVenta;
+    auxVenta = ventas_findById_ventas(nominaVenta,id);
+
+    if(auxVenta != NULL)
+    {
+        //Venta_delete(auxVenta);
+        ventas_setEstado(auxVenta,VENTA_BAJA);
+        dm_saveAllVentas(nominaVenta);
+    }
+    return 0;
+}
+
+
+void cont_imprimir_ventasProducto(void* pVentas) //cambiar nombre entidad
+{
+
+}
+
+int cont_listarVentasProducto(int codProducto)
+{
+    vista_mostrarVentasProducto(nominaVenta);
+    return 0;
+}
+

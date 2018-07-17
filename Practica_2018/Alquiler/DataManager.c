@@ -71,7 +71,7 @@ int dm_readAllCliente(ArrayList* nominaClientes)
 }
 
 
-int dm_saveAllVenta(ArrayList* nominaVenta)
+int dm_saveAllVentas(ArrayList* nominaVentas)
 {
     int i;
     int retorno=-1;
@@ -81,9 +81,9 @@ int dm_saveAllVenta(ArrayList* nominaVenta)
     if(pFile!=NULL)
     {
         fprintf(pFile,"Id_venta,Id_cliente,codProducto,cantidad,precioUnitario\n");
-        for(i=0; i<al_len(nominaVenta); i++)
+        for(i=0; i<al_len(nominaVentas); i++)
         {
-            pVenta=al_get(nominaVenta,i);
+            pVenta=al_get(nominaVentas,i);
             fprintf(pFile, "%d,%d,%d,%d,%f\n", ventas_getId_ventas(pVenta),ventas_getId_clientes(pVenta),
                                     ventas_getCodProducto(pVenta),ventas_getCantidad(pVenta),ventas_getPrecioUnitario(pVenta));
             retorno=0;
@@ -93,7 +93,7 @@ int dm_saveAllVenta(ArrayList* nominaVenta)
     return retorno;
 }
 
-int dm_readAllVentas(ArrayList* nominaVenta)
+int dm_readAllVentas(ArrayList* nominaVentas)
 {
     int retorno = -1;
     char bId_venta[4096];
@@ -102,7 +102,7 @@ int dm_readAllVentas(ArrayList* nominaVenta)
     char bCantidad[4096];
     char bPrecio[4096];
 
-    FILE* pFile = fopen("Venta.txt", "r");
+    FILE* pFile = fopen("Ventas.txt", "r");
     int maxId=0;
 
     Ventas* auxiliarVenta;
@@ -124,7 +124,7 @@ int dm_readAllVentas(ArrayList* nominaVenta)
                     {
                         auxiliarVenta = ventas_new(atoi(bId_venta),atoi(bId_cliente),atoi(bCod_producto),
                                                    atoi(bCantidad),atof(bPrecio),VENTA_ACTIVA);
-                        al_add(nominaVenta,auxiliarVenta);
+                        al_add(nominaVentas,auxiliarVenta);
                         if(ventas_getId_ventas(auxiliarVenta) > maxId)
                         {
                             maxId = ventas_getId_ventas(auxiliarVenta);
