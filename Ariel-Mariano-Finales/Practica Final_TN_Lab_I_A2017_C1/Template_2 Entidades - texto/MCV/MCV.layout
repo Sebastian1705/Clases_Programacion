@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="110" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+		</Folding>
+	</File>
+	<File name="LogEntry.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5683" topLine="39" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="11" />
+			<Collapse line="23" />
+			<Collapse line="28" />
+			<Collapse line="34" />
+			<Collapse line="40" />
+			<Collapse line="46" />
+			<Collapse line="52" />
+			<Collapse line="58" />
+			<Collapse line="63" />
+			<Collapse line="68" />
+			<Collapse line="73" />
+			<Collapse line="78" />
+			<Collapse line="83" />
+			<Collapse line="89" />
+			<Collapse line="92" />
+			<Collapse line="101" />
+			<Collapse line="107" />
+			<Collapse line="110" />
+			<Collapse line="119" />
+			<Collapse line="125" />
+			<Collapse line="128" />
+			<Collapse line="137" />
+			<Collapse line="143" />
+			<Collapse line="146" />
+			<Collapse line="155" />
+			<Collapse line="161" />
+			<Collapse line="164" />
+			<Collapse line="173" />
+			<Collapse line="183" />
+			<Collapse line="193" />
+			<Collapse line="206" />
+			<Collapse line="219" />
+			<Collapse line="232" />
+			<Collapse line="240" />
+			<Collapse line="244" />
+			<Collapse line="248" />
+			<Collapse line="252" />
+			<Collapse line="256" />
+		</Folding>
+	</File>
+	<File name="Validaciones.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1620" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="DataManager.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="146" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Service.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2640" topLine="17" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="11" />
+			<Collapse line="21" />
+			<Collapse line="26" />
+			<Collapse line="32" />
+			<Collapse line="38" />
+			<Collapse line="44" />
+			<Collapse line="49" />
+			<Collapse line="54" />
+			<Collapse line="59" />
+			<Collapse line="65" />
+			<Collapse line="68" />
+			<Collapse line="77" />
+			<Collapse line="83" />
+			<Collapse line="86" />
+			<Collapse line="95" />
+			<Collapse line="101" />
+			<Collapse line="104" />
+			<Collapse line="113" />
+			<Collapse line="126" />
+			<Collapse line="136" />
+			<Collapse line="150" />
+		</Folding>
+	</File>
+	<File name="Validaciones.c" open="1" top="1" tabpos="12" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11947" topLine="50" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="16" />
+			<Collapse line="22" />
+			<Collapse line="24" />
+			<Collapse line="32" />
+			<Collapse line="43" />
+			<Collapse line="49" />
+			<Collapse line="53" />
+			<Collapse line="59" />
+			<Collapse line="64" />
+			<Collapse line="73" />
+			<Collapse line="84" />
+			<Collapse line="90" />
+			<Collapse line="94" />
+			<Collapse line="100" />
+			<Collapse line="105" />
+			<Collapse line="114" />
+			<Collapse line="126" />
+			<Collapse line="133" />
+			<Collapse line="137" />
+			<Collapse line="143" />
+			<Collapse line="148" />
+			<Collapse line="157" />
+			<Collapse line="169" />
+			<Collapse line="176" />
+			<Collapse line="180" />
+			<Collapse line="186" />
+			<Collapse line="191" />
+			<Collapse line="200" />
+			<Collapse line="211" />
+			<Collapse line="216" />
+			<Collapse line="219" />
+			<Collapse line="223" />
+			<Collapse line="228" />
+			<Collapse line="238" />
+			<Collapse line="249" />
+			<Collapse line="254" />
+			<Collapse line="257" />
+			<Collapse line="261" />
+			<Collapse line="266" />
+			<Collapse line="276" />
+			<Collapse line="287" />
+			<Collapse line="292" />
+			<Collapse line="295" />
+			<Collapse line="299" />
+			<Collapse line="304" />
+			<Collapse line="314" />
+			<Collapse line="325" />
+			<Collapse line="330" />
+			<Collapse line="333" />
+			<Collapse line="337" />
+			<Collapse line="342" />
+			<Collapse line="352" />
+			<Collapse line="363" />
+			<Collapse line="368" />
+			<Collapse line="371" />
+			<Collapse line="375" />
+			<Collapse line="380" />
+			<Collapse line="390" />
+			<Collapse line="401" />
+			<Collapse line="406" />
+			<Collapse line="409" />
+			<Collapse line="413" />
+			<Collapse line="418" />
+			<Collapse line="428" />
+			<Collapse line="447" />
+			<Collapse line="451" />
+			<Collapse line="456" />
+			<Collapse line="468" />
+			<Collapse line="475" />
+			<Collapse line="479" />
+			<Collapse line="481" />
+			<Collapse line="490" />
+			<Collapse line="497" />
+			<Collapse line="501" />
+			<Collapse line="503" />
+			<Collapse line="512" />
+			<Collapse line="519" />
+			<Collapse line="523" />
+			<Collapse line="525" />
+			<Collapse line="537" />
+			<Collapse line="544" />
+			<Collapse line="548" />
+			<Collapse line="550" />
+			<Collapse line="562" />
+			<Collapse line="569" />
+			<Collapse line="575" />
+			<Collapse line="577" />
+			<Collapse line="582" />
+			<Collapse line="592" />
+			<Collapse line="599" />
+			<Collapse line="603" />
+			<Collapse line="605" />
+			<Collapse line="614" />
+			<Collapse line="621" />
+			<Collapse line="625" />
+			<Collapse line="627" />
+			<Collapse line="636" />
+			<Collapse line="643" />
+			<Collapse line="647" />
+			<Collapse line="649" />
+			<Collapse line="660" />
+			<Collapse line="667" />
+			<Collapse line="671" />
+			<Collapse line="673" />
+			<Collapse line="678" />
+			<Collapse line="690" />
+			<Collapse line="697" />
+			<Collapse line="701" />
+			<Collapse line="703" />
+			<Collapse line="714" />
+			<Collapse line="721" />
+			<Collapse line="724" />
+			<Collapse line="738" />
+			<Collapse line="749" />
+			<Collapse line="753" />
+			<Collapse line="761" />
+			<Collapse line="765" />
+		</Folding>
+	</File>
+	<File name="ArrayList.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7045" topLine="184" />
+		</Cursor>
+	</File>
+	<File name="DataManager.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4291" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="10" />
+			<Collapse line="19" />
+			<Collapse line="23" />
+			<Collapse line="29" />
+			<Collapse line="36" />
+			<Collapse line="47" />
+			<Collapse line="52" />
+			<Collapse line="56" />
+			<Collapse line="60" />
+			<Collapse line="63" />
+			<Collapse line="85" />
+			<Collapse line="94" />
+			<Collapse line="98" />
+			<Collapse line="104" />
+			<Collapse line="109" />
+			<Collapse line="120" />
+			<Collapse line="121" />
+			<Collapse line="154" />
+			<Collapse line="159" />
+			<Collapse line="163" />
+			<Collapse line="168" />
+			<Collapse line="172" />
+		</Folding>
+	</File>
+	<File name="Vista.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="215" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Service.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="848" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+		</Folding>
+	</File>
+	<File name="ArrayList.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14618" topLine="79" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="21" />
+			<Collapse line="28" />
+			<Collapse line="31" />
+			<Collapse line="56" />
+			<Collapse line="65" />
+			<Collapse line="73" />
+			<Collapse line="76" />
+			<Collapse line="82" />
+			<Collapse line="84" />
+			<Collapse line="92" />
+			<Collapse line="98" />
+			<Collapse line="101" />
+			<Collapse line="104" />
+			<Collapse line="112" />
+			<Collapse line="118" />
+			<Collapse line="121" />
+			<Collapse line="128" />
+			<Collapse line="135" />
+			<Collapse line="138" />
+			<Collapse line="146" />
+			<Collapse line="155" />
+			<Collapse line="158" />
+			<Collapse line="161" />
+			<Collapse line="163" />
+			<Collapse line="168" />
+			<Collapse line="178" />
+			<Collapse line="187" />
+			<Collapse line="190" />
+			<Collapse line="198" />
+			<Collapse line="205" />
+			<Collapse line="208" />
+			<Collapse line="217" />
+			<Collapse line="223" />
+			<Collapse line="226" />
+			<Collapse line="237" />
+			<Collapse line="243" />
+			<Collapse line="247" />
+			<Collapse line="257" />
+			<Collapse line="265" />
+			<Collapse line="268" />
+			<Collapse line="278" />
+			<Collapse line="284" />
+			<Collapse line="287" />
+			<Collapse line="289" />
+			<Collapse line="291" />
+			<Collapse line="301" />
+			<Collapse line="306" />
+			<Collapse line="309" />
+			<Collapse line="319" />
+			<Collapse line="326" />
+			<Collapse line="329" />
+			<Collapse line="337" />
+			<Collapse line="346" />
+			<Collapse line="353" />
+			<Collapse line="356" />
+			<Collapse line="358" />
+			<Collapse line="368" />
+			<Collapse line="375" />
+			<Collapse line="380" />
+			<Collapse line="382" />
+			<Collapse line="396" />
+			<Collapse line="404" />
+			<Collapse line="414" />
+			<Collapse line="416" />
+			<Collapse line="421" />
+			<Collapse line="434" />
+			<Collapse line="438" />
+			<Collapse line="440" />
+			<Collapse line="450" />
+			<Collapse line="456" />
+			<Collapse line="460" />
+			<Collapse line="463" />
+			<Collapse line="473" />
+			<Collapse line="479" />
+			<Collapse line="483" />
+			<Collapse line="486" />
+			<Collapse line="495" />
+			<Collapse line="502" />
+			<Collapse line="507" />
+			<Collapse line="509" />
+			<Collapse line="521" />
+			<Collapse line="528" />
+			<Collapse line="533" />
+			<Collapse line="535" />
+		</Folding>
+	</File>
+	<File name="Controlador.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="307" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controlador.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2535" topLine="6" />
+		</Cursor>
+		<Folding>
+			<Collapse line="19" />
+			<Collapse line="37" />
+			<Collapse line="43" />
+			<Collapse line="44" />
+			<Collapse line="54" />
+			<Collapse line="64" />
+			<Collapse line="70" />
+			<Collapse line="71" />
+			<Collapse line="82" />
+			<Collapse line="93" />
+			<Collapse line="98" />
+			<Collapse line="100" />
+			<Collapse line="104" />
+		</Folding>
+	</File>
+	<File name="Vista.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="550" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="23" />
+			<Collapse line="29" />
+			<Collapse line="34" />
+			<Collapse line="39" />
+			<Collapse line="66" />
+			<Collapse line="71" />
+			<Collapse line="76" />
+			<Collapse line="81" />
+			<Collapse line="90" />
+			<Collapse line="95" />
+			<Collapse line="98" />
+			<Collapse line="113" />
+			<Collapse line="120" />
+			<Collapse line="126" />
+		</Folding>
+	</File>
+	<File name="LogEntry.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1595" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

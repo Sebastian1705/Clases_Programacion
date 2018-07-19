@@ -225,3 +225,5 @@
     int  al_sort (ArrayList* this, int (*pFunc)(void* ,void*), int order);
 
 int al_debugShow (ArrayList* this);
+
+ArrayList* al_filter (ArrayList* listIn, int(*functionFilter)(void*));

@@ -469,3 +469,24 @@ int al_debugShow (ArrayList* this)
     }
     return 0;
 }
+
+ArrayList* al_filter (ArrayList* listIn, int(*functionFilter)(void*))
+{
+    void* returnAux = NULL;
+    int i;
+    void* auxElement;
+
+    if(listIn != NULL && functionFilter!= NULL)
+    {
+        returnAux = al_newArrayList();
+        for(i=0;i<al_len(listIn);i++)
+        {
+            auxElement = al_get(listIn,i);
+            if (functionFilter(auxElement) == 1)
+            {
+                al_add(returnAux,auxElement);
+            }
+        }
+    }
+return returnAux;
+}

@@ -1,2 +1,0 @@
-id;nombre;apellido;estado;dni
-0,0,0,1
