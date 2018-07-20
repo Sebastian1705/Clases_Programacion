@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1531447224 source:c:\users\alumno\desktop\final_laboratorio_1\final\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1531447224 c:\users\alumno\desktop\final_laboratorio_1\final\arraylist.h
+
+1531441039 source:c:\users\alumno\desktop\final_laboratorio_1\final\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"deposito.h"
+	"utn.h"
+	"ArrayList.h"
+	"parser.h"
+
+1531439712 c:\users\alumno\desktop\final_laboratorio_1\final\funciones.h
+	"movie.h"
+	"ArrayList.h"
+
+1531441491 c:\users\alumno\desktop\final_laboratorio_1\final\deposito.h
+
+1531447224 c:\users\alumno\desktop\final_laboratorio_1\final\utn.h
+
+1531439712 c:\users\alumno\desktop\final_laboratorio_1\final\parser.h
+	"ArrayList.h"
+
+1531437044 source:c:\users\alumno\desktop\final_laboratorio_1\final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"ArrayList.h"
+	"funciones.h"
+	"deposito.h"
+	"utn.h"
+
+1531441039 source:c:\users\alumno\desktop\final_laboratorio_1\final\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"parser.h"
+	"ArrayList.h"
+	"deposito.h"
+
+1531447224 source:c:\users\alumno\desktop\final_laboratorio_1\final\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1531441491 source:c:\users\alumno\desktop\final_laboratorio_1\final\deposito.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"deposito.h"
+	"utn.h"
+
