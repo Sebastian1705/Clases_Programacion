@@ -39,6 +39,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Depositos.h" />
+		<Unit filename="Funciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Funciones.h" />
 		<Unit filename="Parser.c">
 			<Option compilerVar="CC" />
 		</Unit>
