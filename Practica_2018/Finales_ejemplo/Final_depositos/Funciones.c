@@ -4,6 +4,7 @@
 #include "Funciones.h"
 #include "Depositos.h"
 #include "ArrayList.h"
+#include "Parser.h"
 
 static void opcion_cargarDeposito();
 static void opcion_listarProductos();
@@ -19,6 +20,8 @@ void f_init()
 {
     lista_0 = al_newArrayList();
     lista_1 = al_newArrayList();
+    p_leerDeposito_0(lista_0);
+    p_leerDeposito_1(lista_1);
     f_mostrarMenu();
 }
 
@@ -83,7 +86,22 @@ static void opcion_cargarDeposito()
 
 static void opcion_listarProductos()
 {
-
+    char opcion[50];
+    if(!val_getUnsignedInt(opcion,"Deposito a listar (0 - 1): ","\nDeposito incorrecto\n",2,50))
+    {
+        if(atoi(opcion) == 0)
+        {
+            f_imprimirLista_0();
+        }
+        else if(atoi(opcion) == 1)
+        {
+            f_imprimirLista_1();
+        }
+        else
+        {
+            printf("\nOpcion incorrecta\n");
+        }
+    }
 }
 
 static void opcion_moverProductos()
@@ -106,7 +124,7 @@ int f_altaDeposito_1(int producto, char* descripcion, int cantidad)
     Depositos* aux;
     aux = depositos_new(producto, descripcion, cantidad);
     al_add(lista_1,aux);
-
+    p_guardarDeposito_1(lista_1);
     return 0;
 }
 
@@ -115,6 +133,18 @@ int f_altaDeposito_0(int producto, char* descripcion, int cantidad)
     Depositos* aux;
     aux = depositos_new(producto, descripcion, cantidad);
     al_add(lista_0,aux);
+    p_guardarDeposito_0(lista_0);
+    return 0;
+}
 
+int f_imprimirLista_0()
+{
+    al_map(lista_0,depositos_imprimir);
+    return 0;
+}
+
+int f_imprimirLista_1()
+{
+    al_map(lista_1,depositos_imprimir);
     return 0;
 }

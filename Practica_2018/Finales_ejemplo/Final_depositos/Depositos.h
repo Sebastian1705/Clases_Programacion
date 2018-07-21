@@ -25,4 +25,4 @@ int depositos_compareByProducto(void* pA ,void* pB);
 int depositos_compareByDescripcion(void* pA ,void* pB);
 int depositos_compareByCantidad(void* pA ,void* pB);
 
-
+void depositos_imprimir(void* deposito);

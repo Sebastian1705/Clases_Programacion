@@ -146,3 +146,12 @@ int depositos_compareByCantidad(void* pA ,void* pB)
 	return retorno;
 }
 
+void depositos_imprimir(void* deposito)
+{
+    if(deposito != NULL)
+    {
+        printf("\nPRODUCTO: %d\t\tDESCRIPCION: %s\t\tCANTIDAD: %d\n",depositos_getProducto(deposito),
+                                                                    depositos_getDescripcion(deposito),
+                                                                    depositos_getCantidad(deposito));
+    }
+}

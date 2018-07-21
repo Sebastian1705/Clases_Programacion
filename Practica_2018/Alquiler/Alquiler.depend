@@ -299,3 +299,79 @@
 	"Controlador.h"
 	"Cliente.h"
 
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/ArrayList.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/DataManager.h
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Vista.h
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Validaciones.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Controlador.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+

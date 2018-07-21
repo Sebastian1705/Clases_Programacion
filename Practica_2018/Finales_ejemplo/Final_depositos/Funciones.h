@@ -10,3 +10,5 @@ int f_altaDeposito(int producto, char* descripcion, int cantidad);
 void f_init();
 int f_altaDeposito_0(int producto, char* descripcion, int cantidad);
 int f_altaDeposito_1(int producto, char* descripcion, int cantidad);
+int f_imprimirLista_0();
+int f_imprimirLista_1();
