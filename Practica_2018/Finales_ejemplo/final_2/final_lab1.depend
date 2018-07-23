@@ -127,3 +127,67 @@
 
 1532045891 /home/seba/laboratorio1_final/final_lab1/personas.h
 
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/archivos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"deposito.h"
+	"formatos.h"
+	"lib.h"
+
+1532045891 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/ArrayList.h
+
+1532045891 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/deposito.h
+
+1532045891 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/formatos.h
+
+1532045891 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/lib.h
+
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/deposito.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"deposito.h"
+
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/formatos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"deposito.h"
+	"archivos.h"
+	"lib.h"
+
+1532045891 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/archivos.h
+
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"deposito.h"
+	"archivos.h"
+	"lib.h"
+
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"formatos.h"
+
+1532045891 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/personas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"personas.h"
+
+1532045891 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/final_2/personas.h
+

@@ -7,8 +7,6 @@
 
 int main()
 {
-
     f_init();
-
     return 0;
 }

@@ -55,7 +55,7 @@
 
 1532050728 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/Validaciones.h
 
-1532206560 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/Funciones.c
+1532313953 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/Funciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -64,8 +64,9 @@
 	"ArrayList.h"
 	"Parser.h"
 
-1532189355 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/Funciones.h
+1532307211 /home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/Funciones.h
 	"Validaciones.h"
+	"ArrayList.h"
 
 1532205670 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/Parser.c
 	<stdio.h>
@@ -76,7 +77,7 @@
 	"Validaciones.h"
 	"Parser.h"
 
-1532054099 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/main.c
+1532216234 source:/home/seba/Programacion_1/Practica_2018/Finales_ejemplo/Final_depositos/main.c
 	<stdio.h>
 	<stdlib.h>
 	"Parser.h"
