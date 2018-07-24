@@ -74,3 +74,46 @@
 	"Empleado.h"
 	"Validaciones.h"
 
+1532050728 source:/home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/ArrayList.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Empleado.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Empleado.h
+	"ArrayList.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Parser.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Parser.h
+	"ArrayList.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Empleado.h"
+	"Validaciones.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Validaciones.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/EjercicioPre2doParcialV2/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
