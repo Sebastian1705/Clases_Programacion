@@ -152,7 +152,7 @@ static void opcion_agregarProductos()
 {
     char producto[50], cantidad[50];
     if( !val_getUnsignedInt(producto,"\nIngrese el codigo de producto: ","Error\n",2,50) &&
-        !val_getUnsignedInt(cantidad,"Cantidad a restar: ","Error\n",2,50));
+        !val_getUnsignedInt(cantidad,"Cantidad a sumar: ","Error\n",2,50));
     {
         if(!f_existeDeposito(atoi(producto),lista_0))
         {
@@ -272,19 +272,27 @@ int f_borrarDeposito(int producto, ArrayList* lista)
 int f_descontarProducto(int producto,int cantidad,ArrayList* lista)
 {
     Depositos* auxiliar;
-    int retorno=-1, nuevoValor;
-
+    int nuevoValor;
     auxiliar = depositos_findByProducto(lista,producto);
-    if(auxiliar!=NULL && depositos_getCantidad(auxiliar)<cantidad)
+
+    if(auxiliar!=NULL && depositos_getCantidad(auxiliar)>cantidad)
     {
         nuevoValor=depositos_getCantidad(auxiliar)-cantidad;
         depositos_setCantidad(auxiliar,nuevoValor);
-        retorno =0;
     }
-    return retorno;
+    return 0;
 }
 
 int f_agregarProducto(int producto,int cantidad,ArrayList* lista)
 {
+    Depositos* auxiliar;
+    int nuevoValor;
+    auxiliar = depositos_findByProducto(lista,producto);
+
+    if(auxiliar!=NULL)
+    {
+        nuevoValor=depositos_getCantidad(auxiliar)+cantidad;
+        depositos_setCantidad(auxiliar,nuevoValor);
+    }
     return 0;
 }

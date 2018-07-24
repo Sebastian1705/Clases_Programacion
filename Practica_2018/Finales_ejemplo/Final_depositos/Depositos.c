@@ -150,7 +150,7 @@ void depositos_imprimir(void* deposito)
 {
     if(deposito != NULL)
     {
-        printf("\nPRODUCTO: %d\t\tDESCRIPCION: %s\t\tCANTIDAD: %d\n",depositos_getProducto(deposito),
+        printf("PRODUCTO: %d\t\tDESCRIPCION: %s\t\tCANTIDAD: %d\n",depositos_getProducto(deposito),
                                                                     depositos_getDescripcion(deposito),
                                                                     depositos_getCantidad(deposito));
     }
