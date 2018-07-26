@@ -375,3 +375,80 @@
 	"Controlador.h"
 	"Cliente.h"
 
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/ArrayList.h
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1532563509 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532563101 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/DataManager.h
+
+1532559003 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Vista.h
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1532563948 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Validaciones.h
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1532564335 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Controlador.h
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1532563489 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+	"Ventas.h"
+

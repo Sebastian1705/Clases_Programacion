@@ -107,3 +107,26 @@
 	"manejodatoslt.h"
 	"luistoncic.h"
 
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Luis/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Luis/ArrayList.h
+
+1532558563 source:/home/seba/Programacion_1/Finales_ejemplo/Luis/final.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	<ctype.h>
+	"luistoncic.h"
+	"ArrayList.h"
+	"final.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Luis/luistoncic.h
+	"ArrayList.h"
+	"final.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Luis/final.h
+

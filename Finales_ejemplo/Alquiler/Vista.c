@@ -6,6 +6,7 @@
 #include "Vista.h"
 #include "Controlador.h"
 #include "Cliente.h"
+#include "Ventas.h"
 
 static void opcionAltaCliente();
 static void opcionBajaCliente();
@@ -17,6 +18,8 @@ static void opcionAltaVenta();
 static void opcionListadoVenta();
 static void opcionBajaVenta();
 static void opcionListadoVentaProducto();
+static void opcioGenerarInforme();
+static void opcioInformarVentasCliente();
 
 static int idiomaVista;
 
@@ -29,9 +32,9 @@ int vista_init (int idioma)
 int vista_mostrarMenu()
 {
     char buffer[10];
-    int option=0;
+    int option=11;
 
-    while(option != 11)
+    while(option != 0)
     {
         val_getUnsignedInt(buffer, MENU_PPAL_ES, MENU_PPAL_ERROR_ES,2,5);
         option = atoi(buffer);
@@ -64,10 +67,10 @@ int vista_mostrarMenu()
             opcionListadoVentaProducto();
             break;
         case 9:
-
+            opcioGenerarInforme();
             break;
         case 10:
-
+            opcioInformarVentasCliente();
             break;
         }
     }
@@ -216,16 +219,35 @@ static void opcionListadoVenta()
     cont_listarVentas();
 }
 
-
 static void opcionListadoVentaProducto()
 {
     char codProducto[4096];
     int cod;
-    if(!val_getUnsignedInt(codProducto,"Ingrese el codigo del producto: ","Error!",2,50))
+    if(!val_getUnsignedInt(codProducto,"IPHONE7 1002\tPS4 1001\tTV_LG_32 1000\nIngrese el codigo del producto: ","Error!",2,50))
     {
         cod = atoi(codProducto);
-        cont_listarVentasProducto(cod);
+        if(cod == TV_LG_32)
+        {
+            cont_listarVentasProducto(cod);
+        }
+        else if(cod == IPHONE7)
+        {
+            cont_listarVentasProducto(cod);
+        }
+        else if(cod == PS4)
+        {
+            cont_listarVentasProducto(cod);
+        }
+        else
+        {
+            printf("\nCodigo incorrecto!\n");
+        }
     }
+}
+
+static void opcioGenerarInforme()
+{
+    cont_generarInforme();
 }
 
 void vista_mostrarVentas(ArrayList* nominaVenta)
@@ -233,8 +255,8 @@ void vista_mostrarVentas(ArrayList* nominaVenta)
     al_map(nominaVenta,cont_imprimir_ventas);
 }
 
-void vista_mostrarVentasProducto(ArrayList* nominaVenta)
+static void opcioInformarVentasCliente()
 {
-    al_map(nominaVenta,cont_imprimir_ventasProducto);
+    cont_informarVentasCliente();
 }
 

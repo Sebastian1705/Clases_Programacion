@@ -15,4 +15,5 @@ int cont_existeVenta(int id);
 int cont_bajaVenta(int id);
 
 int cont_listarVentasProducto(int codProducto);
-void cont_imprimir_ventasProducto(void* pVentas);
+int cont_generarInforme();
+int cont_informarVentasCliente();

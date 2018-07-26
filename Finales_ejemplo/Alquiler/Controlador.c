@@ -162,7 +162,7 @@ void cont_imprimir_ventas(void* pVentas) //cambiar nombre entidad
     {
         if(ventas_getEstado(pVentas) == VENTA_ACTIVA && cliente_getEstado(pCliente) == CLIENTE_ALTA)
         {
-            printf("Id_venta: %d\tnombre_cliente: %s\tapellido_cliente: %s\tdni_cliente: %s\tcodigo_producto: %d\tmonto_facturado: %f\n",
+            printf("Id_venta: %d\tnombre_cliente: %s\tapellido_cliente: %s\tdni_cliente: %s\tcodigo_producto: %d\tmonto_facturado: %.2f\n",
                     ventas_getId_ventas(pVentas),cliente_getNombre(pCliente),cliente_getApellido(pCliente),
                     cliente_getDni(pCliente),ventas_getCodProducto(pVentas),montoFacturado);
         }
@@ -189,15 +189,40 @@ int cont_bajaVenta(int id)
     return 0;
 }
 
-
-void cont_imprimir_ventasProducto(void* pVentas) //cambiar nombre entidad
-{
-
-}
-
 int cont_listarVentasProducto(int codProducto)
 {
-    vista_mostrarVentasProducto(nominaVenta);
+    Cliente* auxCliente;
+    Ventas* auxVentas;
+    int i=0, idCliente;
+    float montoFacturado;
+
+    for(i=0;i<al_len(nominaVenta);i++)
+    {
+        auxVentas = al_get(nominaVenta,i);
+        idCliente = ventas_getId_clientes(auxVentas);
+        auxCliente = cliente_findById(nominaCliente,idCliente);
+        montoFacturado = ventas_getCantidad(auxVentas)*ventas_getPrecioUnitario(auxVentas);
+
+        if(auxCliente != NULL && auxVentas != NULL && ventas_getCodProducto(auxVentas) == codProducto)
+        {
+            if(ventas_getEstado(auxVentas) == VENTA_ACTIVA && cliente_getEstado(auxCliente) == CLIENTE_ALTA)
+            {
+                printf("Id_venta: %d\tnombre_cliente: %s\tapellido_cliente: %s\tdni_cliente: %s\tcodigo_producto: %d\tmonto_facturado: %.2f\n",
+                    ventas_getId_ventas(auxVentas),cliente_getNombre(auxCliente),cliente_getApellido(auxCliente),
+                    cliente_getDni(auxCliente),ventas_getCodProducto(auxVentas),montoFacturado);
+            }
+        }
+    }
     return 0;
 }
 
+int cont_generarInforme()
+{
+    dm_generarInforme(nominaCliente,nominaVenta);
+    return 0;
+}
+
+int cont_informarVentasCliente()
+{
+    return 0;
+}

@@ -1,0 +1,4 @@
+Id_venta,nombre_cliente,apellido_cliente,dni_cliente,codigo_producto,monto_facturado
+0,Trude,Pettet,23663264,1000,17999.98
+1,Iolanthe,Lyford,7649768,1002,487474.75
+2,Hamlen,Zarfai,43869708,1002,487474.75

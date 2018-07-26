@@ -85,7 +85,7 @@ int dm_saveAllVentas(ArrayList* nominaVentas)
         {
             pVenta=al_get(nominaVentas,i);
             fprintf(pFile, "%d,%d,%d,%d,%f\n", ventas_getId_ventas(pVenta),ventas_getId_clientes(pVenta),
-                                    ventas_getCodProducto(pVenta),ventas_getCantidad(pVenta),ventas_getPrecioUnitario(pVenta));
+                    ventas_getCodProducto(pVenta),ventas_getCantidad(pVenta),ventas_getPrecioUnitario(pVenta));
             retorno=0;
         }
     }
@@ -116,11 +116,11 @@ int dm_readAllVentas(ArrayList* nominaVentas)
             do
             {
                 if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,],%[^\n]\n",bId_venta,bId_cliente,
-                  bCod_producto,bCantidad,bPrecio)==5)
+                          bCod_producto,bCantidad,bPrecio)==5)
                 {
                     if( !val_validarUnsignedInt(bId_venta) && !val_validarUnsignedInt(bId_cliente) &&
-                        !val_validarInt(bCod_producto) && !val_validarUnsignedInt(bCantidad) &&
-                        !val_validarFloat(bPrecio))
+                            !val_validarInt(bCod_producto) && !val_validarUnsignedInt(bCantidad) &&
+                            !val_validarFloat(bPrecio))
                     {
                         auxiliarVenta = ventas_new(atoi(bId_venta),atoi(bId_cliente),atoi(bCod_producto),
                                                    atoi(bCantidad),atof(bPrecio),VENTA_ACTIVA);
@@ -139,4 +139,42 @@ int dm_readAllVentas(ArrayList* nominaVentas)
 
     return retorno;
 }
+
+int dm_generarInforme(ArrayList* nominaCliente, ArrayList* nominaVenta)
+{
+    int retorno=-1;
+    Cliente* auxCliente;
+    Ventas* auxVentas;
+    int i=0, idCliente;
+    float montoFacturado;
+    FILE* pFile=fopen("Informes.txt","w");
+
+    if(pFile!=NULL)
+    {
+        fprintf(pFile,"Id_venta,nombre_cliente,apellido_cliente,dni_cliente,codigo_producto,monto_facturado\n");
+        for(i=0; i<al_len(nominaVenta); i++)
+        {
+            auxVentas = al_get(nominaVenta,i);
+            idCliente = ventas_getId_clientes(auxVentas);
+            auxCliente = cliente_findById(nominaCliente,idCliente);
+            montoFacturado = ventas_getCantidad(auxVentas)*ventas_getPrecioUnitario(auxVentas);
+            auxCliente=cliente_findById(nominaCliente,idCliente);
+            if(auxCliente != NULL && auxVentas != NULL)
+            {
+                if(ventas_getEstado(auxVentas) == VENTA_ACTIVA && cliente_getEstado(auxCliente) == CLIENTE_ALTA)
+                {
+                    fprintf(pFile,"%d,%s,%s,%s,%d,%.2f\n", ventas_getId_ventas(auxVentas),cliente_getNombre(auxCliente),
+                    cliente_getApellido(auxCliente),cliente_getDni(auxCliente),ventas_getCodProducto(auxVentas),montoFacturado);
+                    printf("\nArchivo generado!\n");
+                    retorno=0;
+                }
+            }
+
+        }
+    }
+    fclose(pFile);
+    return retorno;
+}
+
+
 
