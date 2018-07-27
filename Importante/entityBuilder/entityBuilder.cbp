@@ -34,10 +34,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ArrayList.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="ArrayList.h" />
 		<Unit filename="entityBuilder.c">
 			<Option compilerVar="CC" />
 		</Unit>

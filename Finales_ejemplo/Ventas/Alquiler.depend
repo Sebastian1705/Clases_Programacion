@@ -1,0 +1,531 @@
+# depslib dependency file v1.0
+1527263645 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1527205019 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1527205019 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/ArrayList.h
+
+1527265101 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1527265063 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Validaciones.h
+
+1527271610 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1527271747 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1527260212 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1527260212 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1527437006 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+
+1527282732 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+
+1527437142 source:/home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+
+1527335944 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Controlador.h
+
+1527262222 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/DataManager.h
+
+1527262056 /home/seba/Documentos/Utn/Programacion_1/Practica_2018/Alquiler/Vista.h
+
+1528926010 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/ArrayList.h
+
+1528926010 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1528930538 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/DataManager.h
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Vista.h
+
+1528932374 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Validaciones.h
+
+1528926010 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1528926010 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1528930659 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+
+1528926010 /home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/Controlador.h
+
+1528926010 source:/home/alumno/Escritorio/Programacion_1/Practica_2018/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1530826482 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/ArrayList.h
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/DataManager.h
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Vista.h
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Validaciones.h
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Controlador.h
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1532038720 /home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1532038720 source:/home/seba/Documentos/Programacion_1/Practica_2018/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+
+1531831093 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1531831093 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\arraylist.h
+
+1531831093 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1531831093 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\cliente.h
+	"ArrayList.h"
+
+1531838704 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1531832171 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.h
+
+1531839132 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.h
+
+1531832967 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1531831093 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.h
+
+1531831093 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1531839626 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\controlador.h
+
+1531831093 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1531831093 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1531831093 c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\ventas.h
+	"ArrayList.h"
+
+1531839132 source:c:\users\supervisor\desktop\programacion_1\practica_2018\alquiler\vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/ArrayList.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/DataManager.h
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Vista.h
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Validaciones.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1532050728 /home/seba/Programacion_1/Practica_2018/Alquiler/Controlador.h
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1532050728 source:/home/seba/Programacion_1/Practica_2018/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/ArrayList.h
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Cliente.h
+	"ArrayList.h"
+
+1532563509 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532563101 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/DataManager.h
+
+1532559003 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Vista.h
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Ventas.h
+	"ArrayList.h"
+
+1532563948 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1532558487 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Validaciones.h
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1532564335 /home/seba/Programacion_1/Finales_ejemplo/Alquiler/Controlador.h
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532558487 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1532563489 source:/home/seba/Programacion_1/Finales_ejemplo/Alquiler/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\arraylist.h
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\datamanager.h
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\vista.h
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\cliente.h
+	"ArrayList.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\ventas.h
+	"ArrayList.h"
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\validaciones.h
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\controlador.h
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1532603920 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\ventas\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+

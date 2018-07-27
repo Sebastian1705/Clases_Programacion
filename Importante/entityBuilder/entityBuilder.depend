@@ -9,63 +9,18 @@
 	<stdlib.h>
 	<string.h>
 
-1511965287 source:/home/mauro/Descargas/addLP1/entityBuilder/main.c
+1511810350 source:/home/mauro/Descargas/addLP1/entityBuilder/main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"entityBuilder.h"
 
-1511964266 /home/mauro/Descargas/addLP1/entityBuilder/entityBuilder.h
+1511810054 /home/mauro/Descargas/addLP1/entityBuilder/entityBuilder.h
 
-1511965263 source:/home/mauro/Descargas/addLP1/entityBuilder/entityBuilder.c
+1511810257 source:/home/mauro/Descargas/addLP1/entityBuilder/entityBuilder.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
-	"entityBuilder.h"
-
-1527205019 source:/home/seba/Documentos/Utn/Programacion_1/entityBuilder/entityBuilder.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-	"entityBuilder.h"
-
-1527205019 /home/seba/Documentos/Utn/Programacion_1/entityBuilder/entityBuilder.h
-
-1527205019 source:/home/seba/Documentos/Utn/Programacion_1/entityBuilder/main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"entityBuilder.h"
-
-1527802546 source:c:\users\alumno\desktop\programacion_1\entitybuilder\entitybuilder.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-	"entityBuilder.h"
-
-1527802546 c:\users\alumno\desktop\programacion_1\entitybuilder\entitybuilder.h
-
-1527802546 source:c:\users\alumno\desktop\programacion_1\entitybuilder\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"entityBuilder.h"
-
-1529616732 source:/home/alumno/Escritorio/Programacion_1/entityBuilder/entityBuilder.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-	"entityBuilder.h"
-
-1529616732 /home/alumno/Escritorio/Programacion_1/entityBuilder/entityBuilder.h
-
-1529616732 source:/home/alumno/Escritorio/Programacion_1/entityBuilder/main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
 	"entityBuilder.h"
 

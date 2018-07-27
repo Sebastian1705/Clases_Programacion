@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1532650722 source:c:\users\alumno\desktop\nueva carpeta\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532650722 c:\users\alumno\desktop\nueva carpeta\arraylist.h
+
+1532649741 source:c:\users\alumno\desktop\nueva carpeta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ArrayList.h"
+	"parserRepartos.h"
+	"reparto.h"
+
+1529628700 c:\users\alumno\desktop\nueva carpeta\utn.h
+
+1532650794 source:c:\users\alumno\desktop\nueva carpeta\reparto.c
+	"reparto.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1532650722 c:\users\alumno\desktop\nueva carpeta\reparto.h
+
+1529628700 source:c:\users\alumno\desktop\nueva carpeta\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1532651279 source:c:\users\alumno\desktop\nueva carpeta\parserrepartos.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"reparto.h"
+	"parserRepartos.h"
+
+1532649165 c:\users\alumno\desktop\nueva carpeta\parserrepartos.h
+
