@@ -3,11 +3,12 @@
 #include "ArrayList.h"
 #include "Validaciones.h"
 #include "Entidad_1.h"
+#include "Entidad_2.h"
 #include "Funciones.h"
-
+#include "Parser.h"
 
 int main()
 {
-    printf("Hello world!\n");
+    f_init();
     return 0;
 }

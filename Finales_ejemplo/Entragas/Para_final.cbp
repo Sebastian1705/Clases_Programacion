@@ -47,6 +47,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Funciones.h" />
+		<Unit filename="Parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Parser.h" />
 		<Unit filename="Validaciones.c">
 			<Option compilerVar="CC" />
 		</Unit>

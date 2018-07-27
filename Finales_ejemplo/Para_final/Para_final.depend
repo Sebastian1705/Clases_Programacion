@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\arraylist.h
+
+1532690041 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\entidad_2.c
+
+1532603399 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1532603399 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\validaciones.h
+
+1532694483 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\entidad_1.c
+
+1532695739 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1532688880 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\entidad_1.h
+
+1532690053 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\entidad_2.h
+
+1532696879 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\funciones.h
+	"ArrayList.h"
+	"Validaciones.h"
+
+1532698419 c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\parser.h
+	"ArrayList.h"
+
+1532698419 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Funciones.h"
+	"Parser.h"
+
+1532696732 source:c:\users\supervisor\desktop\programacion_1\finales_ejemplo\para_final\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
