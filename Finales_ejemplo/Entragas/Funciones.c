@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "ArrayList.h"
 #include "Validaciones.h"
 #include "Entidad_1.h"
@@ -59,41 +60,57 @@ int f_mostrarMenu()
 
 static void opcion_1()
 {
-
+    f_opcion_1();
 }
 
 static void opcion_2()
 {
-
+     f_opcion_2();
 }
 
 static void opcion_3()
 {
-
+     f_opcion_3();
 }
 
 static void opcion_4()
 {
-
+     f_opcion_4();
 }
 
 static void opcion_5()
 {
-
+     f_opcion_5();
 }
 
 int f_opcion_1()
 {
+    p_leer(lista_0);
     return 0;
 }
 
 int f_opcion_2()
 {
+    al_map(lista_0,entrega_print);
     return 0;
 }
 
 int f_opcion_3()
 {
+    Entrega* auxiliar;
+    int i;
+    char localidad[65];
+    for(i=0;i<al_len(lista_0);i++)
+    {
+        auxiliar=al_get(lista_0,i);
+        strncpy(localidad,entrega_getLocalidad(auxiliar),65);
+        if(entrega_findByLocalidad(lista_1,localidad)==NULL)
+        {
+            al_add(lista_1,auxiliar);
+        }
+    }
+    al_sort(lista_1,entrega_compareByLocalidad,1);
+    al_map(lista_1,entrega_printLocalidad);
     return 0;
 }
 

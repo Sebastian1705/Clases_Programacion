@@ -25,6 +25,8 @@ int f_init()
     return 0;
 }
 
+
+
 int f_mostrarMenu()
 {
     char buffer[10];
@@ -57,30 +59,34 @@ int f_mostrarMenu()
     return 0;
 }
 
+
+
 static void opcion_1()
 {
-
+    f_opcion_1();
 }
 
 static void opcion_2()
 {
-
+    f_opcion_2();
 }
 
 static void opcion_3()
 {
-
+    f_opcion_3();
 }
 
 static void opcion_4()
 {
-
+    f_opcion_4();
 }
 
 static void opcion_5()
 {
-
+    f_opcion_5();
 }
+
+
 
 int f_opcion_1()
 {

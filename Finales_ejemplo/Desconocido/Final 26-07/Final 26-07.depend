@@ -42,3 +42,46 @@
 
 1532649165 c:\users\alumno\desktop\nueva carpeta\parserrepartos.h
 
+1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Desconocido/arrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532723045 /home/seba/Programacion_1/Finales_ejemplo/Desconocido/ArrayList.h
+
+1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Desconocido/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ArrayList.h"
+	"parserRepartos.h"
+	"reparto.h"
+
+1532723045 /home/seba/Programacion_1/Finales_ejemplo/Desconocido/utn.h
+
+1532723045 /home/seba/Programacion_1/Finales_ejemplo/Desconocido/parserRepartos.h
+
+1532723045 /home/seba/Programacion_1/Finales_ejemplo/Desconocido/reparto.h
+
+1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Desconocido/parserRepartos.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"reparto.h"
+	"parserRepartos.h"
+
+1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Desconocido/reparto.c
+	"reparto.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Desconocido/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
