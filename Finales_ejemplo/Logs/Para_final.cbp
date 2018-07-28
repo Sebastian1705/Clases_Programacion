@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Logs" />
+		<Option title="Para_final" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Logs" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Para_final" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Logs" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Para_final" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -35,22 +35,22 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="ArrayList.h" />
+		<Unit filename="Entidad_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Entidad_1.h" />
+		<Unit filename="Entidad_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Entidad_2.h" />
 		<Unit filename="Funciones.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Funciones.h" />
-		<Unit filename="LogEntry.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="LogEntry.h" />
 		<Unit filename="Parser.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Parser.h" />
-		<Unit filename="Service.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Service.h" />
 		<Unit filename="Validaciones.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -60,7 +60,9 @@
 		</Unit>
 		<Extensions>
 			<code_completion />
+			<envvars />
 			<debugger />
+			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

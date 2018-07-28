@@ -36,6 +36,3 @@ int val_validarCuit(char* buffer);
 
 int val_getTelefono(char* destino, char* mensaje, char* mensajeError, int intentos, int limite);
 int val_validarTelefono(char* buffer);
-
-int val_validarFecha(char* buffer);
-int val_validarHora(char* buffer);

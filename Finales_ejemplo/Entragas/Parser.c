@@ -7,29 +7,34 @@
 #include "Parser.h"
 #include "Entidad_1.h"
 
-/*
-int p_guardar(ArrayList* lista, char* archivo)
+
+int p_guardar(ArrayList* lista)
 {
     int i;
     int retorno=-1;
 
-    FILE* pFile=fopen(archivo,"w");
-    Entidad* auxiliar=NULL;
+    FILE* pFile=fopen("reparto.txt","w");
+    Entrega* auxiliar=NULL;
 
     if(pFile!=NULL)
     {
-        fprintf(pFile,"b_1,b_2,b_3,b_4,b_5\n");
+        fprintf(pFile,"id,direcion,localidad,ricibe\n");
         for(i=0; i<al_len(lista); i++)
         {
             auxiliar=al_get(lista,i);
-            fprintf(pFile, "%s,%s,%s,%s,%s\n",entidad_get()) //get de cada item
+            fprintf(pFile, "%d,%s,%s,%s,%s\n",  entrega_getId(auxiliar),
+                                                entrega_getProducto(auxiliar),
+                                                entrega_getDireccion(auxiliar),
+                                                entrega_getLocalidad(auxiliar),
+                                                entrega_getRecibe(auxiliar));
+
             retorno=0;
         }
     }
     fclose(pFile);
     return retorno;
 }
-*/
+
 
 int p_leer(ArrayList* lista_0)
 {

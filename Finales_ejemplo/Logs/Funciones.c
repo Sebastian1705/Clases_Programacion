@@ -1,45 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include "Funciones.h"
-#include "LogEntry.h"
-#include "Service.h"
 #include "ArrayList.h"
+#include "Validaciones.h"
+#include "Entidad_1.h"
+#include "Entidad_2.h"
+#include "Funciones.h"
 #include "Parser.h"
 
+static void opcion_1();
+static void opcion_2();
+static void opcion_3();
+static void opcion_4();
+static void opcion_5();
 
-static void opcion_leerLogs();
-static void opcion_procesarInformacion();
-static void opcion_mostrarEstadisticas();
-
-static ArrayList* nominaLogEntry;
-static ArrayList* nominaService;
-static ArrayList* gravedadMenorA3;
-static ArrayList* gravedad3;
-static ArrayList* gravedad4a7;
-static ArrayList* gravedadMayorA7;
+static ArrayList* lista_0;
+static ArrayList* lista_1;
 
 int f_init()
 {
-    nominaLogEntry = al_newArrayList();
-    nominaService = al_newArrayList();
-
-    gravedadMenorA3 = al_newArrayList();
-    gravedad3 = al_newArrayList();
-    gravedad4a7 = al_newArrayList();
-    gravedadMayorA7 = al_newArrayList();
-
+    lista_0 = al_newArrayList();
+    lista_1 = al_newArrayList();
     f_mostrarMenu();
 
     return 0;
 }
+
+
 
 int f_mostrarMenu()
 {
     char buffer[10];
     int option=0;
 
-    while(option != 4)
+    while(option != 6)
     {
         val_getUnsignedInt(buffer, MENU, MENU_ERROR,2,5);
         option = atoi(buffer);
@@ -47,73 +40,76 @@ int f_mostrarMenu()
         switch(option)
         {
         case 1:
-            opcion_leerLogs();
-            al_map(nominaLogEntry,logEntry_print);
-            //al_map(nominaService,service_print);
+            opcion_1();
             break;
         case 2:
-            opcion_procesarInformacion();
+            opcion_2();
             break;
         case 3:
-            opcion_mostrarEstadisticas();
+            opcion_3();
+            break;
+        case 4:
+            opcion_4();
+            break;
+        case 5:
+            opcion_5();
             break;
         }
     }
     return 0;
 }
 
-static void opcion_leerLogs()
+
+
+static void opcion_1()
 {
-    f_leerLogs();
+    f_opcion_1();
 }
 
-static void opcion_procesarInformacion()
+static void opcion_2()
 {
-    f_procesarInformacion();
+    f_opcion_2();
 }
 
-static void opcion_mostrarEstadisticas()
+static void opcion_3()
 {
-
+    f_opcion_3();
 }
 
-int f_leerLogs()
+static void opcion_4()
 {
-    p_leerLogEntry(nominaLogEntry);
-    p_leerLogService(nominaService);
+    f_opcion_4();
+}
 
+static void opcion_5()
+{
+    f_opcion_5();
+}
+
+
+
+int f_opcion_1()
+{
     return 0;
 }
 
-int f_procesarInformacion()
+int f_opcion_2()
 {
-    int i;
-    int opcion;
-    LogEntry* aux = NULL;
+    return 0;
+}
 
-    if (nominaLogEntry != NULL)
-    {
-        for(i=0; i < al_len(nominaLogEntry); i++)
-        {
-            aux = al_get(nominaLogEntry,i);
-            opcion = logEntry_filterLog(aux);
-            switch(opcion)
-            {
-                case 0:
-                    al_add(gravedadMenorA3,aux);
-                    break;
-                case 1:
-                    al_add(gravedad3,aux);
-                    break;
-                case 2:
-                    al_add(gravedad4a7,aux);
-                    break;
-                case 3:
-                    al_add(gravedadMayorA7,aux);
-                    break;
-            }
-        }
-    }
+int f_opcion_3()
+{
+    return 0;
+}
+
+int f_opcion_4()
+{
+    return 0;
+}
+
+int f_opcion_5()
+{
     return 0;
 }
 

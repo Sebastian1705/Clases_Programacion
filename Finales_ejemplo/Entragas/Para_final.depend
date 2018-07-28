@@ -68,7 +68,7 @@
 
 1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Entragas/Entidad_2.c
 
-1532784539 source:/home/seba/Programacion_1/Finales_ejemplo/Entragas/Funciones.c
+1532818959 source:/home/seba/Programacion_1/Finales_ejemplo/Entragas/Funciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -90,7 +90,7 @@
 	"ArrayList.h"
 	"Validaciones.h"
 
-1532729752 /home/seba/Programacion_1/Finales_ejemplo/Entragas/Parser.h
+1532818295 /home/seba/Programacion_1/Finales_ejemplo/Entragas/Parser.h
 	"ArrayList.h"
 
 1532729797 source:/home/seba/Programacion_1/Finales_ejemplo/Entragas/main.c
@@ -103,7 +103,7 @@
 	"Funciones.h"
 	"Parser.h"
 
-1532730867 source:/home/seba/Programacion_1/Finales_ejemplo/Entragas/Parser.c
+1532818312 source:/home/seba/Programacion_1/Finales_ejemplo/Entragas/Parser.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

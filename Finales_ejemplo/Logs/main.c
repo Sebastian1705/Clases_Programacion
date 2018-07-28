@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Parser.h"
-#include "LogEntry.h"
-#include "Service.h"
+#include "ArrayList.h"
+#include "Validaciones.h"
+#include "Entidad_1.h"
+#include "Entidad_2.h"
 #include "Funciones.h"
-#include"ArrayList.h"
+#include "Parser.h"
 
 int main()
 {

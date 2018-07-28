@@ -1,38 +1,61 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ArrayList.h"
-#include "LogEntry.h"
-#include "Service.h"
-#include "Funciones.h"
 #include "Validaciones.h"
+#include "Funciones.h"
 #include "Parser.h"
 
-int p_leerLogEntry(ArrayList* nominaLogEntry)
+/*
+int p_guardar(ArrayList* lista, char* archivo)
+{
+    int i;
+    int retorno=-1;
+
+    FILE* pFile=fopen(archivo,"w");
+    Entidad* auxiliar=NULL;
+
+    if(pFile!=NULL)
+    {
+        fprintf(pFile,"b_1,b_2,b_3,b_4,b_5\n");
+        for(i=0; i<al_len(lista); i++)
+        {
+            auxiliar=al_get(lista,i);
+            fprintf(pFile, "%s,%s,%s,%s,%s\n",entidad_get()) //get de cada item
+            retorno=0;
+        }
+    }
+    fclose(pFile);
+    return retorno;
+}
+*/
+/*
+int p_leer(ArrayList* lista, char* archivo)
 {
     int retorno = -1;
-    char date[11];
-	char time[6];
-	char serviceId[5];
-	char gravedad[5];
-	char msg[65];
+    char b_1[4096];
+    char b_2[4096];
+    char b_3[4096];
+    char b_4[4096];
+    char b_5[4096];
 
-    FILE* pFile = fopen("log.txt", "r");
-    LogEntry* auxiliar;
+    FILE* pFile = fopen(archivo, "r");
+
+    Entidad* auxiliar;
 
     if(pFile != NULL)
     {
         retorno = 0;
-        if(fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",date,time,serviceId,gravedad,msg)==5)
+        if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_2,b_4,b_5)==5)
         {
             do
             {
-                if(fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",date,time,serviceId,gravedad,msg)==5)
+                if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_2,b_4,b_5)==5)
                 {
-                    if( !val_validarFecha(date) && !val_validarHora(time) && val_validarString(msg) &&
-                        !val_validarUnsignedInt(serviceId) && val_validarUnsignedInt(gravedad))
+                    if( !val_validarUnsignedInt(b_1) && !val_validarString(b_2) && !val_validarString(b_3)&&
+                        !val_validarString(b_4) && !val_validarString(b_5))
                     {
-                        auxiliar = logEntry_new(date,time,atoi(serviceId),atoi(gravedad),msg);
-                        al_add(nominaLogEntry,auxiliar);
+                        auxiliar = entidad_new()); //cargar parametros de entidad
+                        al_add(lista,auxiliar);
                     }
                 }
             }
@@ -41,35 +64,4 @@ int p_leerLogEntry(ArrayList* nominaLogEntry)
     }
     return retorno;
 }
-
-int p_leerLogService(ArrayList* nominaService)
-{
-    int retorno = -1;
-    char id[5];
-	char name[33];
-	char email[65];
-
-    FILE* pFile = fopen("services.txt", "r");
-    Service* auxiliar;
-
-    if(pFile != NULL)
-    {
-        retorno = 0;
-        if(fscanf(pFile,"%[^;];%[^;];%[^\n]\n",id,name,email)==3)
-        {
-            do
-            {
-                if(fscanf(pFile,"%[^;];%[^;];%[^\n]\n",id,name,email)==3)
-                {
-                    if(!val_validarUnsignedInt(id) && val_validarEmail(name) && val_validarEmail(email))
-                    {
-                        auxiliar = service_new(atoi(id),name,email);
-                        al_add(nominaService,auxiliar);
-                    }
-                }
-            }
-            while(!feof(pFile));
-        }
-    }
-    return retorno;
-}
+*/
