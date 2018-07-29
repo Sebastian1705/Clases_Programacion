@@ -4,6 +4,8 @@
 #include "Validaciones.h"
 #include "Funciones.h"
 #include "Parser.h"
+#include "Entidad_1.h"
+#include "Entidad_2.h"
 
 /*
 int p_guardar(ArrayList* lista, char* archivo)
@@ -28,8 +30,8 @@ int p_guardar(ArrayList* lista, char* archivo)
     return retorno;
 }
 */
-/*
-int p_leer(ArrayList* lista, char* archivo)
+
+int p_leerLog(ArrayList* lista, char* archivo)
 {
     int retorno = -1;
     char b_1[4096];
@@ -40,21 +42,24 @@ int p_leer(ArrayList* lista, char* archivo)
 
     FILE* pFile = fopen(archivo, "r");
 
-    Entidad* auxiliar;
+    LogEntry* auxiliar;
 
     if(pFile != NULL)
     {
         retorno = 0;
-        if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_2,b_4,b_5)==5)
+        if(fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",b_1,b_2,b_3,b_4,b_5)==5)
         {
             do
             {
-                if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_2,b_4,b_5)==5)
+                if(fscanf(pFile,"%[^;];%[^;];%[^;];%[^;];%[^\n]\n",b_1,b_2,b_3,b_4,b_5)==5)
                 {
-                    if( !val_validarUnsignedInt(b_1) && !val_validarString(b_2) && !val_validarString(b_3)&&
-                        !val_validarString(b_4) && !val_validarString(b_5))
+                  if(   !val_validarTelefono(b_1) &&
+                        !val_validarHora(b_2) &&
+                        !val_validarUnsignedInt(b_3) &&
+                        !val_validarUnsignedInt(b_4) &&
+                        !val_validarAlfanumerico(b_5))
                     {
-                        auxiliar = entidad_new()); //cargar parametros de entidad
+                        auxiliar = logEntry_new(b_1,b_2,atoi(b_3),atoi(b_4),b_5);
                         al_add(lista,auxiliar);
                     }
                 }
@@ -64,4 +69,97 @@ int p_leer(ArrayList* lista, char* archivo)
     }
     return retorno;
 }
-*/
+
+int p_leerService(ArrayList* lista, char* archivo)
+{
+    int retorno = -1;
+    char b_1[4096];
+    char b_2[4096];
+    char b_3[4096];
+
+    FILE* pFile = fopen(archivo, "r");
+
+    Service* auxiliar;
+
+    if(pFile != NULL)
+    {
+        retorno = 0;
+        if(fscanf(pFile,"%[^;];%[^;];%[^\n]\n",b_1,b_2,b_3)==3)
+        {
+            do
+            {
+                if(fscanf(pFile,"%[^;];%[^;];%[^\n]\n",b_1,b_2,b_3)==3)
+                {
+                  if(   !val_validarUnsignedInt(b_1) &&
+                        !val_validarEmail(b_2)  &&
+                        !val_validarEmail(b_3))
+                    {
+                        auxiliar = service_new(atoi(b_1),b_2,b_3);
+                        al_add(lista,auxiliar);
+                    }
+                }
+            }
+            while(!feof(pFile));
+        }
+    }
+    return retorno;
+}
+
+
+int p_guardarWarning(ArrayList* lista_3, ArrayList* lista_Service,char* archivo)
+{
+    int i;
+    int retorno=-1;
+
+    FILE* pFile=fopen(archivo,"w");
+    LogEntry* auxLog=NULL;
+    Service* auxService=NULL;
+
+    if(pFile!=NULL)
+    {
+        fprintf(pFile,"date;time;name;msg;email\n");
+        for(i=0; i<al_len(lista_3); i++)
+        {
+            auxLog=al_get(lista_3,i);
+            auxService = service_findById(lista_Service,logEntry_getServiceId(auxLog));
+            fprintf(pFile, "%s;%s;%s;%s;%s\n",  logEntry_getDate(auxLog),
+                                                logEntry_getTime(auxLog),
+                                                service_getName(auxService),
+                                                logEntry_getMsg(auxLog),
+                                                service_getEmail(auxService));
+            retorno=0;
+        }
+    }
+    fclose(pFile);
+    return retorno;
+}
+
+int p_guardarError(ArrayList* lista_8, ArrayList* lista_Service,char* archivo)
+{
+    int i;
+    int retorno=-1;
+
+    FILE* pFile=fopen(archivo,"w");
+    LogEntry* auxLog=NULL;
+    Service* auxService=NULL;
+
+    if(pFile!=NULL)
+    {
+        fprintf(pFile,"date;time;name;msg;email\n");
+        for(i=0; i<al_len(lista_8); i++)
+        {
+            auxLog=al_get(lista_8,i);
+            auxService = service_findById(lista_Service,logEntry_getServiceId(auxLog));
+            fprintf(pFile, "%s;%s;%s;%s;%s\n",  logEntry_getDate(auxLog),
+                                                logEntry_getTime(auxLog),
+                                                service_getName(auxService),
+                                                logEntry_getMsg(auxLog),
+                                                service_getEmail(auxService));
+            retorno=0;
+        }
+    }
+    fclose(pFile);
+    return retorno;
+}
+
+

@@ -12,14 +12,24 @@ static void opcion_2();
 static void opcion_3();
 static void opcion_4();
 static void opcion_5();
+static void opcion_6();
+static void opcion_7();
+static void opcion_8();
+static void opcion_9();
+static void opcion_10();
 
 static ArrayList* lista_0;
 static ArrayList* lista_1;
+static ArrayList* lista_2;
+static ArrayList* lista_3;
 
 int f_init()
 {
     lista_0 = al_newArrayList();
     lista_1 = al_newArrayList();
+    lista_2 = al_newArrayList();
+    lista_3 = al_newArrayList();
+
     f_mostrarMenu();
 
     return 0;
@@ -30,9 +40,9 @@ int f_init()
 int f_mostrarMenu()
 {
     char buffer[10];
-    int option=0;
+    int option=11;
 
-    while(option != 6)
+    while(option != 0)
     {
         val_getUnsignedInt(buffer, MENU, MENU_ERROR,2,5);
         option = atoi(buffer);
@@ -53,6 +63,21 @@ int f_mostrarMenu()
             break;
         case 5:
             opcion_5();
+            break;
+             case 6:
+            opcion_6();
+            break;
+        case 7:
+            opcion_7();
+            break;
+        case 8:
+            opcion_8();
+            break;
+        case 9:
+            opcion_9();
+            break;
+        case 10:
+            opcion_10();
             break;
         }
     }
@@ -86,7 +111,30 @@ static void opcion_5()
     f_opcion_5();
 }
 
+static void opcion_6()
+{
+    f_opcion_6();
+}
 
+static void opcion_7()
+{
+    f_opcion_7();
+}
+
+static void opcion_8()
+{
+    f_opcion_8();
+}
+
+static void opcion_9()
+{
+    f_opcion_9();
+}
+
+static void opcion_10()
+{
+    f_opcion_10();
+}
 
 int f_opcion_1()
 {
@@ -113,3 +161,27 @@ int f_opcion_5()
     return 0;
 }
 
+int f_opcion_6()
+{
+    return 0;
+}
+
+int f_opcion_7()
+{
+    return 0;
+}
+
+int f_opcion_8()
+{
+    return 0;
+}
+
+int f_opcion_9()
+{
+    return 0;
+}
+
+int f_opcion_10()
+{
+    return 0;
+}

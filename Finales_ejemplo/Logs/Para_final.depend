@@ -125,11 +125,21 @@
 
 1532723045 /home/seba/Programacion_1/Finales_ejemplo/Logs/ArrayList.h
 
-1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_1.c
+1532827343 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_1.h"
 
-1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_2.c
+1532825873 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_2.h"
 
-1532724548 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Funciones.c
+1532881003 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Funciones.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -139,17 +149,19 @@
 	"Funciones.h"
 	"Parser.h"
 
-1532723045 /home/seba/Programacion_1/Finales_ejemplo/Logs/Validaciones.h
+1532826809 /home/seba/Programacion_1/Finales_ejemplo/Logs/Validaciones.h
 
-1532723045 /home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_1.h
+1532827020 /home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_1.h
+	"ArrayList.h"
 
-1532723045 /home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_2.h
+1532827019 /home/seba/Programacion_1/Finales_ejemplo/Logs/Entidad_2.h
+	"ArrayList.h"
 
 1532723045 /home/seba/Programacion_1/Finales_ejemplo/Logs/Funciones.h
 	"ArrayList.h"
 	"Validaciones.h"
 
-1532723045 /home/seba/Programacion_1/Finales_ejemplo/Logs/Parser.h
+1532879916 /home/seba/Programacion_1/Finales_ejemplo/Logs/Parser.h
 	"ArrayList.h"
 
 1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/main.c
@@ -162,15 +174,17 @@
 	"Funciones.h"
 	"Parser.h"
 
-1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Parser.c
+1532880355 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Parser.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
 	"Validaciones.h"
 	"Funciones.h"
 	"Parser.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
 
-1532723045 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Validaciones.c
+1532879038 source:/home/seba/Programacion_1/Finales_ejemplo/Logs/Validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

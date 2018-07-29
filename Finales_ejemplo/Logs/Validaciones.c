@@ -342,7 +342,7 @@ int val_validarEmail(char* buffer)
     int retorno = 0;
     while(buffer[i] != '\0')
     {
-        if((buffer[i] < 'a' || buffer[i] > 'z' ) && buffer[i] != 32 && buffer[i] != 64 && buffer[i] != 47 && buffer[i] != 22 &&(buffer[i] < 'A' || buffer[i] > 'Z' ))
+        if((buffer[i] < '0' || buffer[i] > '9' ) && (buffer[i] < 'a' || buffer[i] > 'z' ) && buffer[i] != 32 && buffer[i] != 64 && buffer[i]!= '.' && buffer[i] != 47 && buffer[i] != 22 &&(buffer[i] < 'A' || buffer[i] > 'Z' ))
         {
             retorno = -1;
             break;
@@ -557,28 +557,44 @@ int val_getTelefono(char* destino, char* mensaje, char* mensajeError, int intent
 
 int val_validarTelefono(char* buffer)
 {
-    int i=0;
+   int i=0;
     int retorno = 0;
-    int flagGuion = 0;
 
     while(buffer[i] != '\0')
     {
-        if(buffer[i] < '0' || buffer[i] > '9' || buffer[i] != '-')
+        if((buffer[i] < '0' || buffer[i] > '9') && buffer[i] != '/')
+        {
+            retorno = -1;
+            break;
+        }
+        i++;
+    }
+    return retorno;
+}
+
+int val_validarHora(char* buffer)
+{
+    int i=0;
+    int retorno = 0;
+    int flagPunto = 0;
+    while(buffer[i] != '\0')
+    {
+        if((buffer[i] < '0' || buffer[i] > '9') && buffer[i] != ':' && buffer[i] != '-' )
         {
             retorno = -1;
             break;
         }
         else
         {
-            if(buffer[i] == '-' && buffer[i] != 4)
+            if(buffer[i] == '-' && i != 0)
             {
                 retorno = -1;
                 break;
             }
-            else if(buffer[i] == '-')
+            else if(buffer[i] == '.')
             {
-                flagGuion++;
-                if(flagGuion > 1)
+                flagPunto++;
+                if(flagPunto > 1)
                 {
                     retorno = -1;
                     break;
@@ -589,3 +605,4 @@ int val_validarTelefono(char* buffer)
     }
     return retorno;
 }
+

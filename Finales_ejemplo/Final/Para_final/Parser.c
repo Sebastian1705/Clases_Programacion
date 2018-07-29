@@ -45,11 +45,11 @@ int p_leer(ArrayList* lista, char* archivo)
     if(pFile != NULL)
     {
         retorno = 0;
-        if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_2,b_4,b_5)==5)
+        if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_3,b_4,b_5)==5)
         {
             do
             {
-                if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_2,b_4,b_5)==5)
+                if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,]%[^\n]\n",b_1,b_2,b_3,b_4,b_5)==5)
                 {
                     if( !val_validarUnsignedInt(b_1) && !val_validarString(b_2) && !val_validarString(b_3)&&
                         !val_validarString(b_4) && !val_validarString(b_5))
