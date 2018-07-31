@@ -235,3 +235,76 @@
 	<string.h>
 	"Validaciones.h"
 
+1533037136 source:c:\users\supervisor\desktop\programacion_1\mensajes\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\mensajes\arraylist.h
+
+1533044021 source:c:\users\supervisor\desktop\programacion_1\mensajes\entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_2.h"
+
+1533046489 source:c:\users\supervisor\desktop\programacion_1\mensajes\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1533038003 c:\users\supervisor\desktop\programacion_1\mensajes\validaciones.h
+
+1533043653 c:\users\supervisor\desktop\programacion_1\mensajes\entidad_1.h
+	"ArrayList.h"
+
+1533043933 c:\users\supervisor\desktop\programacion_1\mensajes\entidad_2.h
+	"ArrayList.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\mensajes\funciones.h
+	"ArrayList.h"
+	"Validaciones.h"
+
+1533043487 c:\users\supervisor\desktop\programacion_1\mensajes\parser.h
+	"ArrayList.h"
+
+1533037136 source:c:\users\supervisor\desktop\programacion_1\mensajes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1533046098 source:c:\users\supervisor\desktop\programacion_1\mensajes\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Funciones.h"
+	"Parser.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+
+1533038003 source:c:\users\supervisor\desktop\programacion_1\mensajes\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1533043933 source:c:\users\supervisor\desktop\programacion_1\mensajes\entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_1.h"
+

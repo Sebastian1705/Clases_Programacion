@@ -328,3 +328,68 @@
 	<string.h>
 	"Validaciones.h"
 
+1533037136 source:c:\users\supervisor\desktop\programacion_1\logs\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\logs\arraylist.h
+
+1533037136 source:c:\users\supervisor\desktop\programacion_1\logs\entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_1.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\logs\entidad_1.h
+	"ArrayList.h"
+
+1533037136 source:c:\users\supervisor\desktop\programacion_1\logs\entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_2.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\logs\entidad_2.h
+	"ArrayList.h"
+
+1533037136 source:c:\users\supervisor\desktop\programacion_1\logs\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\logs\validaciones.h
+
+1533037136 c:\users\supervisor\desktop\programacion_1\logs\funciones.h
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+
+1533037136 c:\users\supervisor\desktop\programacion_1\logs\parser.h
+	"ArrayList.h"
+
+1533037136 source:c:\users\supervisor\desktop\programacion_1\logs\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Funciones.h"
+	"Parser.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+
+1533037136 source:c:\users\supervisor\desktop\programacion_1\logs\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+

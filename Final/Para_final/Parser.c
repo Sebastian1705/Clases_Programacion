@@ -4,6 +4,9 @@
 #include "Validaciones.h"
 #include "Funciones.h"
 #include "Parser.h"
+#include "Entidad_1.h"
+#include "Entidad_2.h"
+
 
 /*
 int p_guardar(ArrayList* lista, char* archivo)

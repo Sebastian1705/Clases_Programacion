@@ -139,6 +139,13 @@ int f_opcion_2()
 int f_opcion_3()
 {
     f_mostrarFallos();
+    int menor3, gravedad3,gravedad4y7, gravedad8;
+    gravedad8 = al_len(lista_8);
+    gravedad4y7 = al_len(lista_4y7);
+    gravedad3 = al_len(lista_3);
+    menor3 = al_len(lista_Log) - (gravedad3 + gravedad4y7 + gravedad8);
+    printf("CANTIDAD DE FALLOS\nGravedad menor a 3: %d\nGravedad 3: %d\nGravedad entre 4 y 7: %d\nGravedad superior a 7: %d",
+                           menor3 ,gravedad3,gravedad4y7,gravedad8);
     return 0;
 }
 
