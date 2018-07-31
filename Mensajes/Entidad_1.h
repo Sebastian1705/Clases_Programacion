@@ -29,3 +29,4 @@ Mensaje* mensaje_findByPopularidad(ArrayList* pArray,int popularidad);
 Mensaje* mensaje_findByMensaje(ArrayList* pArray,char* mensaje);
 
 void mensaje_print(void* this);
+int mensaje_compareByPop(void* pA ,void* pB);

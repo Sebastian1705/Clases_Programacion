@@ -140,23 +140,25 @@ int f_opcion_1()
 {
     if(!p_leerMensajes(lista_mensajes,"mensajes.csv"))
     {
-            printf("Archivo leido\n\n");
+            printf("\nArchivo leido\n\n");
     }
+    printf("%d mensajes\n",al_len(lista_mensajes));
     return 0;
 }
 
 int f_opcion_2()
 {
-    if(!p_leerUsuarios(lista_usuarios,"usuarios.csv"))
-    {
-        printf("Archivo leido\n\n");
-    }
+    al_map(lista_mensajes,mensaje_print);
     return 0;
 }
 
 int f_opcion_3()
 {
-    al_map(lista_mensajes,mensaje_print);
+    if(!p_leerUsuarios(lista_usuarios,"usuarios.csv"))
+    {
+        printf("\nArchivo leido\n\n");
+    }
+    printf("%d usuarios\n",al_len(lista_usuarios));
     return 0;
 }
 
@@ -168,13 +170,12 @@ int f_opcion_4()
 
 int f_opcion_5()
 {
-    printf("%d",al_len(lista_mensajes));
+    p_guardarFeeds(lista_mensajes, lista_usuarios, "feed.csv");
     return 0;
 }
 
 int f_opcion_6()
 {
-    printf("%d",al_len(lista_usuarios));
     return 0;
 }
 

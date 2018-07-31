@@ -145,10 +145,22 @@ void mensaje_print(void* this)
 {
     if(this != NULL)
     {
-        printf("ID_MSG: %d\tID_USU: %d\tPOP: %d\tMSG: %s\n",  mensaje_getId_mensaje(this),
+        printf("ID_MSG: %d\tID_USU: %d\tPOP: %d\tMSG: %s\n\n",  mensaje_getId_mensaje(this),
                                     mensaje_getId_usuario(this),
                                     mensaje_getPopularidad(this),
                                     mensaje_getMensaje(this));
     }
 }
 
+int mensaje_compareByPop(void* pA ,void* pB)
+{
+
+	int retorno = 0;
+
+	if(mensaje_getPopularidad(pA) > mensaje_getPopularidad(pB))
+		retorno = 1;
+	else if(mensaje_getPopularidad(pA) < mensaje_getPopularidad(pB))
+		retorno = -1;
+
+	return retorno;
+}

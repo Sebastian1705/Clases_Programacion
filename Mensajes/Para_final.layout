@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="Validaciones.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="846" topLine="16" />
-		</Cursor>
-	</File>
 	<File name="main.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="221" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Entidad_1.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Parser.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3152" topLine="131" />
+			<Cursor1 position="4477" topLine="67" />
 		</Cursor>
+		<Folding>
+			<Collapse line="33" />
+			<Collapse line="96" />
+			<Collapse line="109" />
+			<Collapse line="120" />
+			<Collapse line="123" />
+			<Collapse line="125" />
+			<Collapse line="127" />
+			<Collapse line="131" />
+		</Folding>
 	</File>
 	<File name="Entidad_1.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1035" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="Entidad_2.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2382" topLine="94" />
+			<Cursor1 position="1078" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Entidad_2.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="793" topLine="4" />
+			<Cursor1 position="793" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Funciones.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+	<File name="Entidad_1.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2389" topLine="137" />
+			<Cursor1 position="3459" topLine="134" />
 		</Cursor>
 	</File>
 	<File name="Funciones.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
@@ -42,19 +41,24 @@
 			<Cursor1 position="310" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Parser.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Validaciones.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3514" topLine="113" />
+			<Cursor1 position="846" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Entidad_2.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2382" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Parser.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="229" topLine="0" />
+			<Cursor1 position="224" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Validaciones.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5696" topLine="146" />
+			<Cursor1 position="5696" topLine="28" />
 		</Cursor>
 		<Folding>
 			<Collapse line="5" />
@@ -68,6 +72,20 @@
 			<Collapse line="51" />
 			<Collapse line="55" />
 			<Collapse line="60" />
+		</Folding>
+	</File>
+	<File name="Funciones.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2405" topLine="124" />
+		</Cursor>
+		<Folding>
+			<Collapse line="165" />
+			<Collapse line="171" />
+			<Collapse line="177" />
+			<Collapse line="182" />
+			<Collapse line="187" />
+			<Collapse line="192" />
+			<Collapse line="197" />
 		</Folding>
 	</File>
 </CodeBlocks_layout_file>
