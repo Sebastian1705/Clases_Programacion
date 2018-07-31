@@ -114,9 +114,9 @@ void usuario_print(void* this)
 {
     if(this != NULL)
     {
-        printf("ID_USU: %d\tNICK: %s\tPOP: %d", usuario_getId_usuario(this),
-                                                usuario_getNick(this),
-                                                usuario_getPopularidad(this));
+        printf("ID_USU: %d\tNICK: %s\tPOP: %d\n",   usuario_getId_usuario(this),
+                                                    usuario_getNick(this),
+                                                    usuario_getPopularidad(this));
     }
 }
 

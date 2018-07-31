@@ -138,7 +138,7 @@ static void opcion_10()
 
 int f_opcion_1()
 {
-    if(!p_leerMensajes(lista_mensajes,"mensajes.txt"))
+    if(!p_leerMensajes(lista_mensajes,"mensajes.csv"))
     {
             printf("Archivo leido\n\n");
     }
@@ -147,7 +147,7 @@ int f_opcion_1()
 
 int f_opcion_2()
 {
-    if(!p_leerUsuarios(lista_usuarios,"usuarios.txt"))
+    if(!p_leerUsuarios(lista_usuarios,"usuarios.csv"))
     {
         printf("Archivo leido\n\n");
     }

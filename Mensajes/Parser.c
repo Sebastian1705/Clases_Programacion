@@ -127,7 +127,7 @@ int p_leerUsuarios(ArrayList* lista, char* archivo)
                 {
                     if( !val_validarUnsignedInt(b_1) &&
                         !val_validarString(b_2) &&
-                        !val_validarInt(b_3))
+                        // !val_validarEmail(b_3))
                     {
                         auxiliar = usuario_new(atoi(b_1),atoi(b_3),b_2);
                         al_add(lista,auxiliar);
