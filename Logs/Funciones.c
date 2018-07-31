@@ -90,7 +90,7 @@ static void opcion_4()
 
 static void opcion_5()
 {
-
+    f_opcion_5();
 }
 
 
@@ -110,61 +110,108 @@ int f_opcion_1()
 int f_opcion_2()
 {
     LogEntry* auxiliar;
-    int i;
+    int i, gravedad;
 
-    for(i=0;i<al_len(lista_Log);i++)
+    for(i=0; i<al_len(lista_Log); i++)
     {
         auxiliar = al_get(lista_Log,i);
-        if(logEntry_getGravedad(auxiliar)==3 && logEntry_getServiceId(auxiliar)!=45)
+        gravedad = logEntry_getGravedad(auxiliar);
+        if(gravedad==3 && logEntry_getServiceId(auxiliar)!=45)
         {
             al_add(lista_3,auxiliar);
-            p_guardarWarning(lista_3,lista_Service,"warnings.txt");
+            p_guardar(lista_3,lista_Service,"warnings.txt");
         }
-        else if(logEntry_getGravedad(auxiliar)>3 && logEntry_getGravedad(auxiliar)<=7)
+        else if(gravedad>3 && gravedad<=7)
         {
             al_add(lista_4y7,auxiliar);
-            // f_opcion_5();
         }
-        else if(logEntry_getGravedad(auxiliar)>7)
+        else if(gravedad>7)
         {
             al_add(lista_8,auxiliar);
-            //p_guardarError(lista_8, lista_Service, "errors.txt");
+            p_guardar(lista_8, lista_Service, "errors.txt");
         }
     }
-
+    printf("\nGravedad entre 4 y 7\n\n");
+    f_opcion_4();
     return 0;
 }
 
 int f_opcion_3()
 {
+    f_mostrarFallos();
     return 0;
 }
 
 int f_opcion_4()
 {
-    printf("lista: %d\n",al_len(lista_Log));
-    printf("lista 3: %d\n",al_len(lista_3));
-    printf("lista 7y4: %d\n",al_len(lista_4y7));
-    printf("lista 8: %d\n",al_len(lista_8));
-    return 0;
+    int i;
+    int retorno=-1;
+    LogEntry* auxLog=NULL;
+    Service* auxService=NULL;
+
+    for(i=0; i<al_len(lista_4y7); i++)
+    {
+        auxLog=al_get(lista_4y7,i);
+        auxService = service_findById(lista_Service,logEntry_getServiceId(auxLog));
+        printf("%s;%s;%s;%s;%s\n",  logEntry_getDate(auxLog),
+                                    logEntry_getTime(auxLog),
+                                    service_getName(auxService),
+                                    logEntry_getMsg(auxLog),
+                                    service_getEmail(auxService));
+        retorno=0;
+    }
+    return retorno;
 }
 
 int f_opcion_5()
 {
-    LogEntry* auxLog;
-    Service* auxService;
-    int i;
-    for(i=0;i<al_len(lista_4y7);i++)
-    {
-        auxLog = al_get(lista_4y7,i);
-        auxService = service_findById(lista_Service,logEntry_getServiceId(auxLog));
+    printf("logs: %d\tservices: %d\tlista_3: %d\tlista_4y7: %d\tlista_8: %d\n", al_len(lista_Log),
+           al_len(lista_Service),
+           al_len(lista_3),
+           al_len(lista_4y7),
+           al_len(lista_8));
 
-       printf("%s\t%s\t%s\t%s\t%d\n",   logEntry_getDate(auxLog),
-                                        logEntry_getTime(auxLog),
-                                        service_getName(auxService),
-                                        logEntry_getMsg(auxLog),
-                                        logEntry_getGravedad(auxLog));
-    }
     return 0;
+}
+
+int f_calcularFallos(int id)
+{
+    LogEntry* auxiliar;
+    int i, contador = 0;
+    for(i=0; i<al_len(lista_Log); i++)
+    {
+        auxiliar=al_get(lista_Log,i);
+        if(logEntry_getServiceId(auxiliar) == id)
+        {
+                contador++;
+        }
+    }
+    return contador;
+}
+
+void f_mostrarFallos()
+{
+    LogEntry* auxLog=NULL;
+    Service* auxService=NULL;
+    int i, max=0, idService, auxCantidad;
+    for(i=0;i<al_len(lista_Log);i++)
+    {
+        auxLog = al_get(lista_Log,i);
+        idService = logEntry_getServiceId(auxLog);
+        auxCantidad = f_calcularFallos(idService);
+        if(auxCantidad>max)
+        {
+            max = auxCantidad;
+            auxService = service_findById(lista_Service,idService);
+        }
+    }
+
+    f_mostarFallo(auxService);
+    printf("La cantidad es %d\n\n",max);
+}
+
+void f_mostarFallo(Service* auxiliar)
+{
+    printf("\nEl service que mas fallos tiene es: %s\n",service_getName(auxiliar));
 }
 

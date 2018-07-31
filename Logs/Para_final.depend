@@ -253,3 +253,78 @@
 	<string.h>
 	"Validaciones.h"
 
+1532924758 source:c:\users\seba\desktop\programacion_1\logs\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532924758 c:\users\seba\desktop\programacion_1\logs\arraylist.h
+
+1532924758 source:c:\users\seba\desktop\programacion_1\logs\entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_1.h"
+
+1532924758 c:\users\seba\desktop\programacion_1\logs\entidad_1.h
+	"ArrayList.h"
+
+1532924758 source:c:\users\seba\desktop\programacion_1\logs\entidad_2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_2.h"
+
+1532924758 c:\users\seba\desktop\programacion_1\logs\entidad_2.h
+	"ArrayList.h"
+
+1533005761 source:c:\users\seba\desktop\programacion_1\logs\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1532924758 c:\users\seba\desktop\programacion_1\logs\validaciones.h
+
+1533010421 c:\users\seba\desktop\programacion_1\logs\funciones.h
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+
+1533004216 c:\users\seba\desktop\programacion_1\logs\parser.h
+	"ArrayList.h"
+
+1532924758 source:c:\users\seba\desktop\programacion_1\logs\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1533005023 source:c:\users\seba\desktop\programacion_1\logs\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Funciones.h"
+	"Parser.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+
+1532924758 source:c:\users\seba\desktop\programacion_1\logs\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
