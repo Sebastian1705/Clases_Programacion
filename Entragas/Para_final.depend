@@ -126,3 +126,71 @@
 	"ArrayList.h"
 	"Entidad_1.h"
 
+1533076952 source:/home/seba/Programacion_1/Entragas/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533076952 /home/seba/Programacion_1/Entragas/ArrayList.h
+
+1533076952 source:/home/seba/Programacion_1/Entragas/Entidad_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Entidad_1.h"
+
+1533076952 /home/seba/Programacion_1/Entragas/Entidad_1.h
+	"ArrayList.h"
+
+1533076952 source:/home/seba/Programacion_1/Entragas/Entidad_2.c
+
+1533076952 source:/home/seba/Programacion_1/Entragas/Funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1533076952 /home/seba/Programacion_1/Entragas/Validaciones.h
+
+1533076952 /home/seba/Programacion_1/Entragas/Entidad_2.h
+
+1533076952 /home/seba/Programacion_1/Entragas/Funciones.h
+	"ArrayList.h"
+	"Validaciones.h"
+
+1533076952 /home/seba/Programacion_1/Entragas/Parser.h
+	"ArrayList.h"
+
+1533076952 source:/home/seba/Programacion_1/Entragas/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
+	"Funciones.h"
+	"Parser.h"
+
+1533076952 source:/home/seba/Programacion_1/Entragas/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Validaciones.h"
+	"Funciones.h"
+	"Parser.h"
+	"Entidad_1.h"
+
+1533076952 source:/home/seba/Programacion_1/Entragas/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+

@@ -64,22 +64,32 @@ static void opcion_cargarDeposito()
     char cantidad[50];
     char deposito[50];
 
-    if( !val_getUnsignedInt(producto, "\nIngrese el producto: ", "Error\n",2,50)&&
-        !val_getString(descripcion, "Ingrese la descripcion: ", "Error\n",2,50)&&
-        !val_getUnsignedInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50)&&
-        !val_getUnsignedInt(deposito, "Ingrese deposito(0 - 1): ","Error\n",2,50))
+    if( !val_getUnsignedInt(producto, "\nIngrese el producto: ", "Error\n",2,50))
     {
-        if(atoi(deposito) == 0)
+        if(f_existeProducto(atoi(producto)) != 0)
         {
-            f_altaDeposito_0(atoi(producto),descripcion,atoi(cantidad));
-        }
-        else if(atoi(deposito) == 1)
-        {
-            f_altaDeposito_1(atoi(producto),descripcion,atoi(cantidad));
+            if( !val_getString(descripcion, "Ingrese la descripcion: ", "Error\n",2,50)&&
+                    !val_getUnsignedInt(cantidad, "Ingrese la cantidad: ", "Error\n",2,50)&&
+                    !val_getUnsignedInt(deposito, "Ingrese deposito(0 - 1): ","Error\n",2,50))
+            {
+                if(atoi(deposito) == 0)
+                {
+                    f_altaDeposito_0(atoi(producto),descripcion,atoi(cantidad));
+                }
+                else if(atoi(deposito) == 1)
+                {
+                    f_altaDeposito_1(atoi(producto),descripcion,atoi(cantidad));
+                }
+                else
+                {
+                    printf("\nDeposito incorrecto!\n");
+                }
+
+            }
         }
         else
         {
-            printf("\nDeposito incorrecto!\n");
+            printf("El producto ya existe!\n");
         }
     }
 }
@@ -109,7 +119,7 @@ static void opcion_moverProductos()
     char origen[50], destino[50], producto[50];
 
     if( !val_getUnsignedInt(origen,"\nIngrese el deposito de origen (0 - 1): ","\nError!\n",2,50) &&
-        !val_getUnsignedInt(destino,"\nIngrese el deposito destino(0 - 1): ","\nError\n",2,50))
+            !val_getUnsignedInt(destino,"\nIngrese el deposito destino(0 - 1): ","\nError\n",2,50))
     {
         if(atoi(origen) == atoi(destino))
         {
@@ -129,7 +139,7 @@ static void opcion_descontarProductos()
 {
     char producto[50], cantidad[50];
     if( !val_getUnsignedInt(producto,"\nIngrese el codigo de producto: ","Error\n",2,50) &&
-        !val_getUnsignedInt(cantidad,"Cantidad a restar: ","Error\n",2,50));
+            !val_getUnsignedInt(cantidad,"Cantidad a restar: ","Error\n",2,50));
     {
         if(!f_existeDeposito(atoi(producto),lista_0))
         {
@@ -152,7 +162,7 @@ static void opcion_agregarProductos()
 {
     char producto[50], cantidad[50];
     if( !val_getUnsignedInt(producto,"\nIngrese el codigo de producto: ","Error\n",2,50) &&
-        !val_getUnsignedInt(cantidad,"Cantidad a sumar: ","Error\n",2,50));
+            !val_getUnsignedInt(cantidad,"Cantidad a sumar: ","Error\n",2,50));
     {
         if(!f_existeDeposito(atoi(producto),lista_0))
         {
@@ -207,7 +217,7 @@ int f_modificarDeposito(int origen, int destino, int producto)
     int retorno = -1;
     if(!f_existeDeposito(producto, lista_0))
     {
-        for(i=0;i<al_len(lista_0);i++)
+        for(i=0; i<al_len(lista_0); i++)
         {
             auxiliar = al_get(lista_0,i);
             if(depositos_getProducto(auxiliar) == producto)
@@ -223,7 +233,7 @@ int f_modificarDeposito(int origen, int destino, int producto)
     }
     else if(!f_existeDeposito(producto, lista_1))
     {
-        for(i=0;i<al_len(lista_1);i++)
+        for(i=0; i<al_len(lista_1); i++)
         {
             auxiliar = al_get(lista_1,i);
             if(depositos_getProducto(auxiliar) == producto)
@@ -256,7 +266,7 @@ int f_borrarDeposito(int producto, ArrayList* lista)
 {
     Depositos* auxiliar;
     int i=0;
-    for(i=0;i<al_len(lista);i++)
+    for(i=0; i<al_len(lista); i++)
     {
         auxiliar = al_get(lista,i);
         if(depositos_getProducto(auxiliar)==producto)
@@ -295,4 +305,18 @@ int f_agregarProducto(int producto,int cantidad,ArrayList* lista)
         depositos_setCantidad(auxiliar,nuevoValor);
     }
     return 0;
+}
+
+
+int f_existeProducto(int producto)
+{
+    int retorno = -1;
+    Depositos* aux = depositos_findByProducto(lista_0,producto);
+    Depositos* aux1 = depositos_findByProducto(lista_1,producto);
+
+    if (aux != NULL || aux1 != NULL)
+    {
+        retorno = 0;
+    }
+    return retorno;
 }

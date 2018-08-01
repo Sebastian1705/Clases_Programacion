@@ -183,9 +183,9 @@ int f_opcion_9()
 
 int f_opcion_10()
 {
-    printf("\n1. %d\t2. %d\t3. %d\t4. %d\n\n",al_len(lista_0),
-                                            al_len(lista_1),
-                                            al_len(lista_2),
-                                            al_len(lista_3));
+    printf("\n1. %d\t2. %d\t3. %d\t4. %d\n\n",  al_len(lista_0),
+                                                al_len(lista_1),
+                                                al_len(lista_2),
+                                                al_len(lista_3));
     return 0;
 }

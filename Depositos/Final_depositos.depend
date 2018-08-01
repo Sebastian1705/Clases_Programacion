@@ -147,3 +147,62 @@
 	<string.h>
 	"Validaciones.h"
 
+1533076952 source:/home/seba/Programacion_1/Depositos/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533076952 /home/seba/Programacion_1/Depositos/ArrayList.h
+
+1533081420 source:/home/seba/Programacion_1/Depositos/Depositos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Depositos.h"
+
+1533076952 /home/seba/Programacion_1/Depositos/Depositos.h
+	"ArrayList.h"
+
+1533081952 source:/home/seba/Programacion_1/Depositos/Funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Funciones.h"
+	"Depositos.h"
+	"ArrayList.h"
+	"Parser.h"
+
+1533081838 /home/seba/Programacion_1/Depositos/Funciones.h
+	"Validaciones.h"
+	"ArrayList.h"
+
+1533076952 /home/seba/Programacion_1/Depositos/Validaciones.h
+
+1533076952 /home/seba/Programacion_1/Depositos/Parser.h
+	"ArrayList.h"
+
+1533076952 source:/home/seba/Programacion_1/Depositos/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Parser.h"
+	"Depositos.h"
+	"Funciones.h"
+	"ArrayList.h"
+
+1533076952 source:/home/seba/Programacion_1/Depositos/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Depositos.h"
+	"Funciones.h"
+	"Validaciones.h"
+	"Parser.h"
+
+1533076952 source:/home/seba/Programacion_1/Depositos/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+

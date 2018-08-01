@@ -155,3 +155,4 @@ void depositos_imprimir(void* deposito)
                                                                     depositos_getCantidad(deposito));
     }
 }
+

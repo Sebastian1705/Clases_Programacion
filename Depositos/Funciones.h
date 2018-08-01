@@ -17,3 +17,5 @@ int f_existeDeposito(int producto, ArrayList* lista);
 int f_borrarDeposito(int producto, ArrayList* lista);
 int f_descontarProducto(int producto,int cantidad,ArrayList* lista);
 int f_agregarProducto(int producto,int cantidad,ArrayList* lista);
+
+int f_existeProducto(int producto);

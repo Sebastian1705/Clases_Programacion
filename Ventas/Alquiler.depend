@@ -529,3 +529,80 @@
 	"ArrayList.h"
 	"Cliente.h"
 
+1533076952 source:/home/seba/Programacion_1/Ventas/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533076952 /home/seba/Programacion_1/Ventas/ArrayList.h
+
+1533076952 source:/home/seba/Programacion_1/Ventas/Cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Cliente.h"
+
+1533076952 /home/seba/Programacion_1/Ventas/Cliente.h
+	"ArrayList.h"
+
+1533076952 source:/home/seba/Programacion_1/Ventas/Controlador.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Vista.h"
+	"Cliente.h"
+	"Ventas.h"
+
+1533076952 /home/seba/Programacion_1/Ventas/DataManager.h
+
+1533076952 /home/seba/Programacion_1/Ventas/Vista.h
+
+1533076952 /home/seba/Programacion_1/Ventas/Ventas.h
+	"ArrayList.h"
+
+1533076952 source:/home/seba/Programacion_1/Ventas/DataManager.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"DataManager.h"
+	"Cliente.h"
+	"Validaciones.h"
+	"Ventas.h"
+
+1533076952 /home/seba/Programacion_1/Ventas/Validaciones.h
+
+1533076952 source:/home/seba/Programacion_1/Ventas/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controlador.h"
+
+1533076952 /home/seba/Programacion_1/Ventas/Controlador.h
+
+1533076952 source:/home/seba/Programacion_1/Ventas/Validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1533076952 source:/home/seba/Programacion_1/Ventas/Ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Ventas.h"
+
+1533076952 source:/home/seba/Programacion_1/Ventas/Vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+	"ArrayList.h"
+	"Vista.h"
+	"Controlador.h"
+	"Cliente.h"
+	"Ventas.h"
+
