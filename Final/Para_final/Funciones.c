@@ -36,7 +36,6 @@ int f_init()
 }
 
 
-
 int f_mostrarMenu()
 {
     char buffer[10];
@@ -83,7 +82,6 @@ int f_mostrarMenu()
     }
     return 0;
 }
-
 
 
 static void opcion_1()
@@ -138,21 +136,25 @@ static void opcion_10()
 
 int f_opcion_1()
 {
+    // p_leer(lista_0,"archivo_0");
     return 0;
 }
 
 int f_opcion_2()
 {
+    // p_leer(lista_1,"archivo_1");
     return 0;
 }
 
 int f_opcion_3()
 {
+    // al_map(lista_0,entidad_print);
     return 0;
 }
 
 int f_opcion_4()
 {
+    // al_map(lista_1,entidad_print);
     return 0;
 }
 

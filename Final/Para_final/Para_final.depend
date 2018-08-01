@@ -176,19 +176,19 @@
 	"Funciones.h"
 	"Parser.h"
 
-1533037136 source:c:\users\supervisor\desktop\programacion_1\final\para_final\arraylist.c
+1533126284 source:c:\users\supervisor\desktop\programacion_1\final\para_final\arraylist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"ArrayList.h"
 
-1533037136 c:\users\supervisor\desktop\programacion_1\final\para_final\arraylist.h
+1533126284 c:\users\supervisor\desktop\programacion_1\final\para_final\arraylist.h
 
-1533037136 source:c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_1.c
+1533132573 source:c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_1.c
 
-1533037136 source:c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_2.c
+1533132559 source:c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_2.c
 
-1533037136 source:c:\users\supervisor\desktop\programacion_1\final\para_final\funciones.c
+1533129048 source:c:\users\supervisor\desktop\programacion_1\final\para_final\funciones.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -198,20 +198,20 @@
 	"Funciones.h"
 	"Parser.h"
 
-1533038003 c:\users\supervisor\desktop\programacion_1\final\para_final\validaciones.h
+1533126284 c:\users\supervisor\desktop\programacion_1\final\para_final\validaciones.h
 
-1533037136 c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_1.h
+1533126284 c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_1.h
 
-1533037136 c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_2.h
+1533126284 c:\users\supervisor\desktop\programacion_1\final\para_final\entidad_2.h
 
-1533037136 c:\users\supervisor\desktop\programacion_1\final\para_final\funciones.h
+1533126284 c:\users\supervisor\desktop\programacion_1\final\para_final\funciones.h
 	"ArrayList.h"
 	"Validaciones.h"
 
-1533037136 c:\users\supervisor\desktop\programacion_1\final\para_final\parser.h
+1533128409 c:\users\supervisor\desktop\programacion_1\final\para_final\parser.h
 	"ArrayList.h"
 
-1533037136 source:c:\users\supervisor\desktop\programacion_1\final\para_final\main.c
+1533126284 source:c:\users\supervisor\desktop\programacion_1\final\para_final\main.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -221,15 +221,17 @@
 	"Funciones.h"
 	"Parser.h"
 
-1533037136 source:c:\users\supervisor\desktop\programacion_1\final\para_final\parser.c
+1533128409 source:c:\users\supervisor\desktop\programacion_1\final\para_final\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
 	"Validaciones.h"
 	"Funciones.h"
 	"Parser.h"
+	"Entidad_1.h"
+	"Entidad_2.h"
 
-1533038003 source:c:\users\supervisor\desktop\programacion_1\final\para_final\validaciones.c
+1533126284 source:c:\users\supervisor\desktop\programacion_1\final\para_final\validaciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
